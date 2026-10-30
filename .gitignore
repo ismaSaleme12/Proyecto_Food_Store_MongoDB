@@ -1,0 +1,17 @@
+# Sistema
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Entornos y credenciales
+.env
+.env.*
+
+# Python
+__pycache__/
+*.pyc
+
+# Datos locales de los motores (nunca se versionan)
+mongo-data/
+pg_u7/
+*.wt

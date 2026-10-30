@@ -1,0 +1,372 @@
+﻿                     jsonb_pretty                     
+------------------------------------------------------
+ [                                                   +
+     {                                               +
+         "_id": 1,                                   +
+         "fecha": "2026-06-28T20:06:30.148803-03:00",+
+         "total": 9342.65,                           +
+         "lineas": [                                 +
+             {                                       +
+                 "nombre": "Producto 1",             +
+                 "cantidad": 5,                      +
+                 "subtotal": 9342.65,                +
+                 "categoria": "Bebidas",             +
+                 "producto_id": 1,                   +
+                 "precio_unitario": 1868.53          +
+             }                                       +
+         ],                                          +
+         "origen": {                                 +
+             "base": "practica_bd2_tp",              +
+             "motor": "PostgreSQL",                  +
+             "tablas": [                             +
+                 "pedido",                           +
+                 "detalle_pedido",                   +
+                 "cliente",                          +
+                 "producto"                          +
+             ]                                       +
+         },                                          +
+         "cliente": {                                +
+             "email": "cliente453@example.com",      +
+             "nombre": "Cliente 453",                +
+             "telefono": "555-000453",               +
+             "cliente_id": 453                       +
+         },                                          +
+         "pedido_id": 1,                             +
+         "forma_pago": "EFECTIVO"                    +
+     },                                              +
+     {                                               +
+         "_id": 2,                                   +
+         "fecha": "2026-06-22T13:47:35.025016-03:00",+
+         "total": 19389.36,                          +
+         "lineas": [                                 +
+             {                                       +
+                 "nombre": "Producto 2",             +
+                 "cantidad": 4,                      +
+                 "subtotal": 19389.36,               +
+                 "categoria": "Comidas",             +
+                 "producto_id": 2,                   +
+                 "precio_unitario": 4847.34          +
+             }                                       +
+         ],                                          +
+         "origen": {                                 +
+             "base": "practica_bd2_tp",              +
+             "motor": "PostgreSQL",                  +
+             "tablas": [                             +
+                 "pedido",                           +
+                 "detalle_pedido",                   +
+                 "cliente",                          +
+                 "producto"                          +
+             ]                                       +
+         },                                          +
+         "cliente": {                                +
+             "email": "cliente14648@example.com",    +
+             "nombre": "Cliente 14648",              +
+             "telefono": "555-014648",               +
+             "cliente_id": 14648                     +
+         },                                          +
+         "pedido_id": 2,                             +
+         "forma_pago": "TARJETA"                     +
+     },                                              +
+     {                                               +
+         "_id": 3,                                   +
+         "fecha": "2026-04-24T03:56:45.421229-03:00",+
+         "total": 14254.05,                          +
+         "lineas": [                                 +
+             {                                       +
+                 "nombre": "Producto 3",             +
+                 "cantidad": 5,                      +
+                 "subtotal": 14254.05,               +
+                 "categoria": "Postres",             +
+                 "producto_id": 3,                   +
+                 "precio_unitario": 2850.81          +
+             }                                       +
+         ],                                          +
+         "origen": {                                 +
+             "base": "practica_bd2_tp",              +
+             "motor": "PostgreSQL",                  +
+             "tablas": [                             +
+                 "pedido",                           +
+                 "detalle_pedido",                   +
+                 "cliente",                          +
+                 "producto"                          +
+             ]                                       +
+         },                                          +
+         "cliente": {                                +
+             "email": "cliente15329@example.com",    +
+             "nombre": "Cliente 15329",              +
+             "telefono": "555-015329",               +
+             "cliente_id": 15329                     +
+         },                                          +
+         "pedido_id": 3,                             +
+         "forma_pago": "TARJETA"                     +
+     },                                              +
+     {                                               +
+         "_id": 4,                                   +
+         "fecha": "2026-06-12T00:23:26.620474-03:00",+
+         "total": 4609.02,                           +
+         "lineas": [                                 +
+             {                                       +
+                 "nombre": "Producto 4",             +
+                 "cantidad": 3,                      +
+                 "subtotal": 4609.02,                +
+                 "categoria": "Snacks",              +
+                 "producto_id": 4,                   +
+                 "precio_unitario": 1536.34          +
+             }                                       +
+         ],                                          +
+         "origen": {                                 +
+             "base": "practica_bd2_tp",              +
+             "motor": "PostgreSQL",                  +
+             "tablas": [                             +
+                 "pedido",                           +
+                 "detalle_pedido",                   +
+                 "cliente",                          +
+                 "producto"                          +
+             ]                                       +
+         },                                          +
+         "cliente": {                                +
+             "email": "cliente12804@example.com",    +
+             "nombre": "Cliente 12804",              +
+             "telefono": "555-012804",               +
+             "cliente_id": 12804                     +
+         },                                          +
+         "pedido_id": 4,                             +
+         "forma_pago": "TRANSFERENCIA"               +
+     },                                              +
+     {                                               +
+         "_id": 5,                                   +
+         "fecha": "2026-08-25T11:07:54.368831-03:00",+
+         "total": 5596.15,                           +
+         "lineas": [                                 +
+             {                                       +
+                 "nombre": "Producto 5",             +
+                 "cantidad": 5,                      +
+                 "subtotal": 5596.15,                +
+                 "categoria": "L├ícteos",             +
+                 "producto_id": 5,                   +
+                 "precio_unitario": 1119.23          +
+             }                                       +
+         ],                                          +
+         "origen": {                                 +
+             "base": "practica_bd2_tp",              +
+             "motor": "PostgreSQL",                  +
+             "tablas": [                             +
+                 "pedido",                           +
+                 "detalle_pedido",                   +
+                 "cliente",                          +
+                 "producto"                          +
+             ]                                       +
+         },                                          +
+         "cliente": {                                +
+             "email": "cliente6968@example.com",     +
+             "nombre": "Cliente 6968",               +
+             "telefono": "555-006968",               +
+             "cliente_id": 6968                      +
+         },                                          +
+         "pedido_id": 5,                             +
+         "forma_pago": "TARJETA"                     +
+     },                                              +
+     {                                               +
+         "_id": 6,                                   +
+         "fecha": "2026-06-25T20:54:03.874779-03:00",+
+         "total": 4971.38,                           +
+         "lineas": [                                 +
+             {                                       +
+                 "nombre": "Producto 6",             +
+                 "cantidad": 2,                      +
+                 "subtotal": 4971.38,                +
+                 "categoria": "Panader├¡a",           +
+                 "producto_id": 6,                   +
+                 "precio_unitario": 2485.69          +
+             }                                       +
+         ],                                          +
+         "origen": {                                 +
+             "base": "practica_bd2_tp",              +
+             "motor": "PostgreSQL",                  +
+             "tablas": [                             +
+                 "pedido",                           +
+                 "detalle_pedido",                   +
+                 "cliente",                          +
+                 "producto"                          +
+             ]                                       +
+         },                                          +
+         "cliente": {                                +
+             "email": "cliente12840@example.com",    +
+             "nombre": "Cliente 12840",              +
+             "telefono": "555-012840",               +
+             "cliente_id": 12840                     +
+         },                                          +
+         "pedido_id": 6,                             +
+         "forma_pago": "EFECTIVO"                    +
+     },                                              +
+     {                                               +
+         "_id": 7,                                   +
+         "fecha": "2025-09-13T07:32:32.455194-03:00",+
+         "total": 12817.15,                          +
+         "lineas": [                                 +
+             {                                       +
+                 "nombre": "Producto 7",             +
+                 "cantidad": 5,                      +
+                 "subtotal": 12817.15,               +
+                 "categoria": "Verduler├¡a",          +
+                 "producto_id": 7,                   +
+                 "precio_unitario": 2563.43          +
+             }                                       +
+         ],                                          +
+         "origen": {                                 +
+             "base": "practica_bd2_tp",              +
+             "motor": "PostgreSQL",                  +
+             "tablas": [                             +
+                 "pedido",                           +
+                 "detalle_pedido",                   +
+                 "cliente",                          +
+                 "producto"                          +
+             ]                                       +
+         },                                          +
+         "cliente": {                                +
+             "email": "cliente16145@example.com",    +
+             "nombre": "Cliente 16145",              +
+             "telefono": "555-016145",               +
+             "cliente_id": 16145                     +
+         },                                          +
+         "pedido_id": 7,                             +
+         "forma_pago": "TRANSFERENCIA"               +
+     },                                              +
+     {                                               +
+         "_id": 50001,                               +
+         "fecha": "2026-05-03T21:32:56.167989-03:00",+
+         "total": 1868.53,                           +
+         "lineas": [                                 +
+             {                                       +
+                 "nombre": "Producto 1",             +
+                 "cantidad": 1,                      +
+                 "subtotal": 1868.53,                +
+                 "categoria": "Bebidas",             +
+                 "producto_id": 1,                   +
+                 "precio_unitario": 1868.53          +
+             }                                       +
+         ],                                          +
+         "origen": {                                 +
+             "base": "practica_bd2_tp",              +
+             "motor": "PostgreSQL",                  +
+             "tablas": [                             +
+                 "pedido",                           +
+                 "detalle_pedido",                   +
+                 "cliente",                          +
+                 "producto"                          +
+             ]                                       +
+         },                                          +
+         "cliente": {                                +
+             "email": "cliente2506@example.com",     +
+             "nombre": "Cliente 2506",               +
+             "telefono": "555-002506",               +
+             "cliente_id": 2506                      +
+         },                                          +
+         "pedido_id": 50001,                         +
+         "forma_pago": "TARJETA"                     +
+     },                                              +
+     {                                               +
+         "_id": 100001,                              +
+         "fecha": "2025-12-28T12:36:36.893343-03:00",+
+         "total": 7474.12,                           +
+         "lineas": [                                 +
+             {                                       +
+                 "nombre": "Producto 1",             +
+                 "cantidad": 4,                      +
+                 "subtotal": 7474.12,                +
+                 "categoria": "Bebidas",             +
+                 "producto_id": 1,                   +
+                 "precio_unitario": 1868.53          +
+             }                                       +
+         ],                                          +
+         "origen": {                                 +
+             "base": "practica_bd2_tp",              +
+             "motor": "PostgreSQL",                  +
+             "tablas": [                             +
+                 "pedido",                           +
+                 "detalle_pedido",                   +
+                 "cliente",                          +
+                 "producto"                          +
+             ]                                       +
+         },                                          +
+         "cliente": {                                +
+             "email": "cliente8073@example.com",     +
+             "nombre": "Cliente 8073",               +
+             "telefono": "555-008073",               +
+             "cliente_id": 8073                      +
+         },                                          +
+         "pedido_id": 100001,                        +
+         "forma_pago": "TRANSFERENCIA"               +
+     },                                              +
+     {                                               +
+         "_id": 150001,                              +
+         "fecha": "2026-03-09T09:05:14.682599-03:00",+
+         "total": 5605.59,                           +
+         "lineas": [                                 +
+             {                                       +
+                 "nombre": "Producto 1",             +
+                 "cantidad": 3,                      +
+                 "subtotal": 5605.59,                +
+                 "categoria": "Bebidas",             +
+                 "producto_id": 1,                   +
+                 "precio_unitario": 1868.53          +
+             }                                       +
+         ],                                          +
+         "origen": {                                 +
+             "base": "practica_bd2_tp",              +
+             "motor": "PostgreSQL",                  +
+             "tablas": [                             +
+                 "pedido",                           +
+                 "detalle_pedido",                   +
+                 "cliente",                          +
+                 "producto"                          +
+             ]                                       +
+         },                                          +
+         "cliente": {                                +
+             "email": "cliente1318@example.com",     +
+             "nombre": "Cliente 1318",               +
+             "telefono": "555-001318",               +
+             "cliente_id": 1318                      +
+         },                                          +
+         "pedido_id": 150001,                        +
+         "forma_pago": "TRANSFERENCIA"               +
+     }                                               +
+ ]
+(1 fila)
+
+  id   | forma_pago |             fecha             
+-------+------------+-------------------------------
+     2 | TARJETA    | 2026-06-22 13:47:35.025016-03
+     3 | TARJETA    | 2026-04-24 03:56:45.421229-03
+     5 | TARJETA    | 2026-08-25 11:07:54.368831-03
+ 50001 | TARJETA    | 2026-05-03 21:32:56.167989-03
+(4 filas)
+
+   id   |  producto  | cantidad | precio_unitario 
+--------+------------+----------+-----------------
+      1 | Producto 1 |        5 |         1868.53
+  50001 | Producto 1 |        1 |         1868.53
+ 100001 | Producto 1 |        4 |         1868.53
+ 150001 | Producto 1 |        3 |         1868.53
+(4 filas)
+
+     consulta     | cantidad |           ids           
+------------------+----------+-------------------------
+ Estado = TARJETA |        4 | {2,3,5,50001}
+ Producto = 1     |        4 | {1,50001,100001,150001}
+(2 filas)
+
+   id   | lineas | lineas_inactivas | cantidades_positivas 
+--------+--------+------------------+----------------------
+      1 |      1 |                0 | t
+      2 |      1 |                0 | t
+      3 |      1 |                0 | t
+      4 |      1 |                0 | t
+      5 |      1 |                0 | t
+      6 |      1 |                0 | t
+      7 |      1 |                0 | t
+  50001 |      1 |                0 | t
+ 100001 |      1 |                0 | t
+ 150001 |      1 |                0 | t
+(10 filas)
+

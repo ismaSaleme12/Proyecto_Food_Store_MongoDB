@@ -1,0 +1,352 @@
+[
+  {
+    "_id": 1,
+    "pedido_id": 1,
+    "fecha": {
+      "$date": "2026-06-28T20:06:30.148803-03:00"
+    },
+    "forma_pago": "EFECTIVO",
+    "cliente": {
+      "cliente_id": 453,
+      "nombre": "Cliente 453",
+      "email": "cliente453@example.com",
+      "telefono": "555-000453"
+    },
+    "lineas": [
+      {
+        "producto_id": 1,
+        "nombre": "Producto 1",
+        "categoria": "Bebidas",
+        "cantidad": 5,
+        "precio_unitario": 1868.53,
+        "subtotal": 9342.65
+      }
+    ],
+    "total": 9342.65,
+    "origen": {
+      "motor": "PostgreSQL",
+      "tablas": [
+        "pedido",
+        "detalle_pedido",
+        "cliente",
+        "producto"
+      ],
+      "base": "practica_bd2_tp"
+    }
+  },
+  {
+    "_id": 2,
+    "pedido_id": 2,
+    "fecha": {
+      "$date": "2026-06-22T13:47:35.025016-03:00"
+    },
+    "forma_pago": "TARJETA",
+    "cliente": {
+      "cliente_id": 14648,
+      "nombre": "Cliente 14648",
+      "email": "cliente14648@example.com",
+      "telefono": "555-014648"
+    },
+    "lineas": [
+      {
+        "producto_id": 2,
+        "nombre": "Producto 2",
+        "categoria": "Comidas",
+        "cantidad": 4,
+        "precio_unitario": 4847.34,
+        "subtotal": 19389.36
+      }
+    ],
+    "total": 19389.36,
+    "origen": {
+      "motor": "PostgreSQL",
+      "tablas": [
+        "pedido",
+        "detalle_pedido",
+        "cliente",
+        "producto"
+      ],
+      "base": "practica_bd2_tp"
+    }
+  },
+  {
+    "_id": 3,
+    "pedido_id": 3,
+    "fecha": {
+      "$date": "2026-04-24T03:56:45.421229-03:00"
+    },
+    "forma_pago": "TARJETA",
+    "cliente": {
+      "cliente_id": 15329,
+      "nombre": "Cliente 15329",
+      "email": "cliente15329@example.com",
+      "telefono": "555-015329"
+    },
+    "lineas": [
+      {
+        "producto_id": 3,
+        "nombre": "Producto 3",
+        "categoria": "Postres",
+        "cantidad": 5,
+        "precio_unitario": 2850.81,
+        "subtotal": 14254.05
+      }
+    ],
+    "total": 14254.05,
+    "origen": {
+      "motor": "PostgreSQL",
+      "tablas": [
+        "pedido",
+        "detalle_pedido",
+        "cliente",
+        "producto"
+      ],
+      "base": "practica_bd2_tp"
+    }
+  },
+  {
+    "_id": 4,
+    "pedido_id": 4,
+    "fecha": {
+      "$date": "2026-06-12T00:23:26.620474-03:00"
+    },
+    "forma_pago": "TRANSFERENCIA",
+    "cliente": {
+      "cliente_id": 12804,
+      "nombre": "Cliente 12804",
+      "email": "cliente12804@example.com",
+      "telefono": "555-012804"
+    },
+    "lineas": [
+      {
+        "producto_id": 4,
+        "nombre": "Producto 4",
+        "categoria": "Snacks",
+        "cantidad": 3,
+        "precio_unitario": 1536.34,
+        "subtotal": 4609.02
+      }
+    ],
+    "total": 4609.02,
+    "origen": {
+      "motor": "PostgreSQL",
+      "tablas": [
+        "pedido",
+        "detalle_pedido",
+        "cliente",
+        "producto"
+      ],
+      "base": "practica_bd2_tp"
+    }
+  },
+  {
+    "_id": 5,
+    "pedido_id": 5,
+    "fecha": {
+      "$date": "2026-08-25T11:07:54.368831-03:00"
+    },
+    "forma_pago": "TARJETA",
+    "cliente": {
+      "cliente_id": 6968,
+      "nombre": "Cliente 6968",
+      "email": "cliente6968@example.com",
+      "telefono": "555-006968"
+    },
+    "lineas": [
+      {
+        "producto_id": 5,
+        "nombre": "Producto 5",
+        "categoria": "Lácteos",
+        "cantidad": 5,
+        "precio_unitario": 1119.23,
+        "subtotal": 5596.15
+      }
+    ],
+    "total": 5596.15,
+    "origen": {
+      "motor": "PostgreSQL",
+      "tablas": [
+        "pedido",
+        "detalle_pedido",
+        "cliente",
+        "producto"
+      ],
+      "base": "practica_bd2_tp"
+    }
+  },
+  {
+    "_id": 6,
+    "pedido_id": 6,
+    "fecha": {
+      "$date": "2026-06-25T20:54:03.874779-03:00"
+    },
+    "forma_pago": "EFECTIVO",
+    "cliente": {
+      "cliente_id": 12840,
+      "nombre": "Cliente 12840",
+      "email": "cliente12840@example.com",
+      "telefono": "555-012840"
+    },
+    "lineas": [
+      {
+        "producto_id": 6,
+        "nombre": "Producto 6",
+        "categoria": "Panadería",
+        "cantidad": 2,
+        "precio_unitario": 2485.69,
+        "subtotal": 4971.38
+      }
+    ],
+    "total": 4971.38,
+    "origen": {
+      "motor": "PostgreSQL",
+      "tablas": [
+        "pedido",
+        "detalle_pedido",
+        "cliente",
+        "producto"
+      ],
+      "base": "practica_bd2_tp"
+    }
+  },
+  {
+    "_id": 7,
+    "pedido_id": 7,
+    "fecha": {
+      "$date": "2025-09-13T07:32:32.455194-03:00"
+    },
+    "forma_pago": "TRANSFERENCIA",
+    "cliente": {
+      "cliente_id": 16145,
+      "nombre": "Cliente 16145",
+      "email": "cliente16145@example.com",
+      "telefono": "555-016145"
+    },
+    "lineas": [
+      {
+        "producto_id": 7,
+        "nombre": "Producto 7",
+        "categoria": "Verdulería",
+        "cantidad": 5,
+        "precio_unitario": 2563.43,
+        "subtotal": 12817.15
+      }
+    ],
+    "total": 12817.15,
+    "origen": {
+      "motor": "PostgreSQL",
+      "tablas": [
+        "pedido",
+        "detalle_pedido",
+        "cliente",
+        "producto"
+      ],
+      "base": "practica_bd2_tp"
+    }
+  },
+  {
+    "_id": 50001,
+    "pedido_id": 50001,
+    "fecha": {
+      "$date": "2026-05-03T21:32:56.167989-03:00"
+    },
+    "forma_pago": "TARJETA",
+    "cliente": {
+      "cliente_id": 2506,
+      "nombre": "Cliente 2506",
+      "email": "cliente2506@example.com",
+      "telefono": "555-002506"
+    },
+    "lineas": [
+      {
+        "producto_id": 1,
+        "nombre": "Producto 1",
+        "categoria": "Bebidas",
+        "cantidad": 1,
+        "precio_unitario": 1868.53,
+        "subtotal": 1868.53
+      }
+    ],
+    "total": 1868.53,
+    "origen": {
+      "motor": "PostgreSQL",
+      "tablas": [
+        "pedido",
+        "detalle_pedido",
+        "cliente",
+        "producto"
+      ],
+      "base": "practica_bd2_tp"
+    }
+  },
+  {
+    "_id": 100001,
+    "pedido_id": 100001,
+    "fecha": {
+      "$date": "2025-12-28T12:36:36.893343-03:00"
+    },
+    "forma_pago": "TRANSFERENCIA",
+    "cliente": {
+      "cliente_id": 8073,
+      "nombre": "Cliente 8073",
+      "email": "cliente8073@example.com",
+      "telefono": "555-008073"
+    },
+    "lineas": [
+      {
+        "producto_id": 1,
+        "nombre": "Producto 1",
+        "categoria": "Bebidas",
+        "cantidad": 4,
+        "precio_unitario": 1868.53,
+        "subtotal": 7474.12
+      }
+    ],
+    "total": 7474.12,
+    "origen": {
+      "motor": "PostgreSQL",
+      "tablas": [
+        "pedido",
+        "detalle_pedido",
+        "cliente",
+        "producto"
+      ],
+      "base": "practica_bd2_tp"
+    }
+  },
+  {
+    "_id": 150001,
+    "pedido_id": 150001,
+    "fecha": {
+      "$date": "2026-03-09T09:05:14.682599-03:00"
+    },
+    "forma_pago": "TRANSFERENCIA",
+    "cliente": {
+      "cliente_id": 1318,
+      "nombre": "Cliente 1318",
+      "email": "cliente1318@example.com",
+      "telefono": "555-001318"
+    },
+    "lineas": [
+      {
+        "producto_id": 1,
+        "nombre": "Producto 1",
+        "categoria": "Bebidas",
+        "cantidad": 3,
+        "precio_unitario": 1868.53,
+        "subtotal": 5605.59
+      }
+    ],
+    "total": 5605.59,
+    "origen": {
+      "motor": "PostgreSQL",
+      "tablas": [
+        "pedido",
+        "detalle_pedido",
+        "cliente",
+        "producto"
+      ],
+      "base": "practica_bd2_tp"
+    }
+  }
+]

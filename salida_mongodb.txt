@@ -1,0 +1,83 @@
+﻿Documentos insertados: 10
+Validador de esquema aplicado sobre foodstore_nosql.pedidos
+
+===== a) Todos los pedidos con su identificador y estado =====
+1 | 2026-06-28 | EFECTIVO | $9342.65
+2 | 2026-06-22 | TARJETA | $19389.36
+3 | 2026-04-24 | TARJETA | $14254.05
+4 | 2026-06-12 | TRANSFERENCIA | $4609.02
+5 | 2026-08-25 | TARJETA | $5596.15
+6 | 2026-06-25 | EFECTIVO | $4971.38
+7 | 2025-09-13 | TRANSFERENCIA | $12817.15
+50001 | 2026-05-04 | TARJETA | $1868.53
+100001 | 2025-12-28 | TRANSFERENCIA | $7474.12
+150001 | 2026-03-09 | TRANSFERENCIA | $5605.59
+
+===== b) Pedidos con estado = TARJETA =====
+2 | TARJETA | $19389.36
+3 | TARJETA | $14254.05
+5 | TARJETA | $5596.15
+50001 | TARJETA | $1868.53
+Cantidad: 4
+IDs: [2, 3, 5, 50001]
+
+===== c) Pedidos que contienen el producto 1 en lineas =====
+1 | Producto 1 | cant 5 x $1868.53
+50001 | Producto 1 | cant 1 x $1868.53
+100001 | Producto 1 | cant 4 x $1868.53
+150001 | Producto 1 | cant 3 x $1868.53
+Cantidad: 4
+IDs: [1, 50001, 100001, 150001]
+
+===== d) Pedidos con total > 10000 =====
+2 | $19389.36
+3 | $14254.05
+7 | $12817.15
+Cantidad: 3
+IDs: [2, 3, 7]
+
+===== Verificacion =====
+Documentos en la coleccion: 10
+Total facturado en la coleccion: $85928
+Documento de ejemplo (pedido 1):
+{
+  _id: 1,
+  pedido_id: 1,
+  fecha: ISODate('2026-06-28T23:06:30.148Z'),
+  forma_pago: 'EFECTIVO',
+  cliente: {
+    cliente_id: 453,
+    nombre: 'Cliente 453',
+    email: 'cliente453@example.com',
+    telefono: '555-000453'
+  },
+  lineas: [
+    {
+      producto_id: 1,
+      nombre: 'Producto 1',
+      categoria: 'Bebidas',
+      cantidad: 5,
+      precio_unitario: 1868.53,
+      subtotal: 9342.65
+    }
+  ],
+  total: 9342.65,
+  origen: {
+    motor: 'PostgreSQL',
+    tablas: [
+      'pedido',
+      'detalle_pedido',
+      'cliente',
+      'producto'
+    ],
+    base: 'practica_bd2_tp'
+  }
+}
+
+===== Prueba negativa: pedido sin lineas (Regla 2) =====
+RECHAZADO por el validador -> Document failed validation
+
+===== Prueba negativa: cantidad = 0 =====
+RECHAZADO por el validador -> Document failed validation
+
+IDs migrados: [1, 2, 3, 4, 5, 6, 7, 50001, 100001, 150001]
