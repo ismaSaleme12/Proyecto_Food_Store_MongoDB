@@ -1,0 +1,3166 @@
+%PDF-1.4
+%âãÏÓ
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [7 0 R 9 0 R 11 0 R 13 0 R 15 0 R 17 0 R] /Count 6 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Oblique /Encoding /WinAnsiEncoding >>
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier /Encoding /WinAnsiEncoding >>
+endobj
+7 0 obj
+<< /Length 10424 >>
+stream
+
+q
+0.8 w
+0.8 0.85 0.9 RG
+40 805 m 555.28 805 l S
+BT
+/F2 8 Tf
+0.3 0.35 0.45 rg
+1 0 0 1 40 812 Tm
+(UTN - TECNICATURA UNIVERSITARIA EN PROGRAMACIÓN  |  BASE DE DATOS II) Tj
+1 0 0 1 370 812 Tm
+(TP N.º 8: Food Store en la Feria \(Unidad 8\)) Tj
+ET
+Q
+
+q
+1.5 w
+0.95 0.97 1 rg
+0.2 0.35 0.65 RG
+40.00 715.00 515.00 75.00 re
+B
+Q
+
+BT
+/F2 9 Tf
+0.3 0.4 0.55 rg
+1 0 0 1 55.00 772.00 Tm
+(UNIVERSIDAD TECNOLÓGICA NACIONAL  ·  FACULTAD REGIONAL) Tj
+ET
+
+BT
+/F1 9 Tf
+0.4 0.45 0.5 rg
+1 0 0 1 55.00 758.00 Tm
+(Base de Datos II  ·  Tecnicatura Universitaria en Programación) Tj
+ET
+
+BT
+/F2 14 Tf
+0.1 0.2 0.45 rg
+1 0 0 1 55.00 738.00 Tm
+(TRABAJO PRÁCTICO N.º 8: Food Store en la Feria) Tj
+ET
+
+BT
+/F3 9 Tf
+0.3 0.35 0.4 rg
+1 0 0 1 55.00 724.00 Tm
+(La base de la tablet y el cierre de la capa de datos  ·  Ciclo Lectivo 2026) Tj
+ET
+
+q
+1 w
+0.98 0.98 0.99 rg
+0.8 0.82 0.85 RG
+40.00 665.00 515.00 42.00 re
+B
+Q
+
+BT
+/F2 8.5 Tf
+0.2 0.3 0.5 rg
+1 0 0 1 50.00 695.00 Tm
+(EQUIPO DE PROYECTO:) Tj
+ET
+
+BT
+/F1 8.5 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 50.00 680.00 Tm
+(• Gimenez, Lucas        • Saleme, Lucas        • Coronel, Franco        • Godoy, Nahuel) Tj
+ET
+
+BT
+/F3 8 Tf
+0.4 0.4 0.4 rg
+1 0 0 1 50.00 669.00 Tm
+(Modalidad: Cierre de Capa de Datos \(Unidad 8\)  |  Defensa con preguntas individuales) Tj
+ET
+
+q
+1 w
+0.99 0.98 0.92 rg
+0.8 0.65 0.2 RG
+40.00 605.00 515.00 50.00 re
+B
+Q
+
+BT
+/F2 8.5 Tf
+0.6 0.45 0.1 rg
+1 0 0 1 48.00 642.00 Tm
+(REGLA DE ORO DE LA ARQUITECTURA DISTRIBUIDA) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 48.00 630.00 Tm
+( El móvil propone, el servidor dispone. La tablet solo consulta catálogos en caché y arma borradores.) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 48.00 619.50 Tm
+(Precio, stock y confirmación de ventas son potestad exclusiva e indelegable de PostgreSQL.) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 48.00 609.00 Tm
+(SIMULADO_APROBADO representa únicamente una validación preliminar en la tablet, NUNCA una venta. ) Tj
+ET
+
+q
+1 w
+0.15 0.35 0.65 rg
+40.00 570.00 4.00 22.00 re
+f
+Q
+
+BT
+/F2 11 Tf
+0.1 0.2 0.45 rg
+1 0 0 1 50.00 582.00 Tm
+(Consigna 1.a · Delimitación de Datos: ¿Qué datos viajan a la tablet?) Tj
+ET
+
+BT
+/F3 8 Tf
+0.4 0.4 0.4 rg
+1 0 0 1 50.00 572.00 Tm
+(Paradas 1 a 4: Minimización de superficie de ataque, seguridad y fuente de verdad) Tj
+ET
+
+q
+1 w
+0.2 0.35 0.6 rg
+0.15 0.25 0.45 RG
+40.00 539.00 515.00 16.00 re
+B
+Q
+
+BT
+/F2 7.5 Tf
+1 1 1 rg
+1 0 0 1 44.00 543.50 Tm
+(Dato / Columna) Tj
+ET
+
+BT
+/F2 7.5 Tf
+1 1 1 rg
+1 0 0 1 129.00 543.50 Tm
+(Viaja) Tj
+ET
+
+BT
+/F2 7.5 Tf
+1 1 1 rg
+1 0 0 1 169.00 543.50 Tm
+(Origen / Destino) Tj
+ET
+
+BT
+/F2 7.5 Tf
+1 1 1 rg
+1 0 0 1 284.00 543.50 Tm
+(Justificación Técnica y Arquitectónica) Tj
+ET
+
+q
+0.5 w
+0.97 0.98 0.99 rg
+0.85 0.85 0.85 RG
+40.00 524.25 515.00 14.75 re
+B
+Q
+
+BT
+/F2 7 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 44.00 528.00 Tm
+(id \(producto\)) Tj
+ET
+
+BT
+/F1 7 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 129.00 528.00 Tm
+(SÍ) Tj
+ET
+
+BT
+/F1 7 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 169.00 528.00 Tm
+(PostgreSQL -> Tablet) Tj
+ET
+
+BT
+/F1 7 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 284.00 528.00 Tm
+(Identificador único inmutable necesario para referenciar el artículo en los borradores.) Tj
+ET
+
+q
+0.5 w
+1 1 1 rg
+0.85 0.85 0.85 RG
+40.00 509.50 515.00 14.75 re
+B
+Q
+
+BT
+/F2 7 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 44.00 513.25 Tm
+(nombre) Tj
+ET
+
+BT
+/F1 7 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 129.00 513.25 Tm
+(SÍ) Tj
+ET
+
+BT
+/F1 7 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 169.00 513.25 Tm
+(PostgreSQL -> Tablet) Tj
+ET
+
+BT
+/F1 7 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 284.00 513.25 Tm
+(Denominación comercial requerida para la visualización del catálogo offline por el cajero.) Tj
+ET
+
+q
+0.5 w
+0.97 0.98 0.99 rg
+0.85 0.85 0.85 RG
+40.00 494.75 515.00 14.75 re
+B
+Q
+
+BT
+/F2 7 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 44.00 498.50 Tm
+(precio_centavos) Tj
+ET
+
+BT
+/F1 7 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 129.00 498.50 Tm
+(SÍ) Tj
+ET
+
+BT
+/F1 7 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 169.00 498.50 Tm
+(PostgreSQL -> Tablet) Tj
+ET
+
+BT
+/F1 7 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 284.00 498.50 Tm
+(Precio de referencia visto al armar el pedido. Almacenado como entero para evitar error IEEE 754.) Tj
+ET
+
+q
+0.5 w
+1 1 1 rg
+0.85 0.85 0.85 RG
+40.00 480.00 515.00 14.75 re
+B
+Q
+
+BT
+/F2 7 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 44.00 483.75 Tm
+(stock_visto) Tj
+ET
+
+BT
+/F1 7 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 129.00 483.75 Tm
+(SÍ) Tj
+ET
+
+BT
+/F1 7 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 169.00 483.75 Tm
+(PostgreSQL -> Tablet) Tj
+ET
+
+BT
+/F1 7 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 284.00 483.75 Tm
+(Stock de referencia orientativo para prevenir la selección de artículos agotados en la feria.) Tj
+ET
+
+q
+0.5 w
+0.97 0.98 0.99 rg
+0.85 0.85 0.85 RG
+40.00 465.25 515.00 14.75 re
+B
+Q
+
+BT
+/F2 7 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 44.00 469.00 Tm
+(disponible, eliminado) Tj
+ET
+
+BT
+/F1 7 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 129.00 469.00 Tm
+(SÍ) Tj
+ET
+
+BT
+/F1 7 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 169.00 469.00 Tm
+(PostgreSQL -> Tablet) Tj
+ET
+
+BT
+/F1 7 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 284.00 469.00 Tm
+(Banderas booleanas \(0/1\). 'eliminado' actúa como lápida \(tombstone\) para bajas lógicas.) Tj
+ET
+
+q
+0.5 w
+1 1 1 rg
+0.85 0.85 0.85 RG
+40.00 450.50 515.00 14.75 re
+B
+Q
+
+BT
+/F2 7 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 44.00 454.25 Tm
+(fecha_copia) Tj
+ET
+
+BT
+/F1 7 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 129.00 454.25 Tm
+(SÍ) Tj
+ET
+
+BT
+/F1 7 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 169.00 454.25 Tm
+(Generado en Tablet) Tj
+ET
+
+BT
+/F1 7 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 284.00 454.25 Tm
+(Marca temporal que registra cuándo se capturó la instantánea para auditar obsolescencia.) Tj
+ET
+
+q
+0.5 w
+0.97 0.98 0.99 rg
+0.85 0.85 0.85 RG
+40.00 435.75 515.00 14.75 re
+B
+Q
+
+BT
+/F2 7 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 44.00 439.50 Tm
+(costo_unitario / prov.) Tj
+ET
+
+BT
+/F1 7 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 129.00 439.50 Tm
+(NO) Tj
+ET
+
+BT
+/F1 7 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 169.00 439.50 Tm
+(Exclusivo PostgreSQL) Tj
+ET
+
+BT
+/F1 7 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 284.00 439.50 Tm
+(Información financiera confidencial de margen comercial innecesaria para la venta minorista.) Tj
+ET
+
+q
+0.5 w
+1 1 1 rg
+0.85 0.85 0.85 RG
+40.00 421.00 515.00 14.75 re
+B
+Q
+
+BT
+/F2 7 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 44.00 424.75 Tm
+(datos_usuarios / pass) Tj
+ET
+
+BT
+/F1 7 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 129.00 424.75 Tm
+(NO) Tj
+ET
+
+BT
+/F1 7 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 169.00 424.75 Tm
+(Exclusivo PostgreSQL) Tj
+ET
+
+BT
+/F1 7 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 284.00 424.75 Tm
+(Credenciales, hashes SHA/Bcrypt, mails y roles. Crítico por seguridad ante robo de la tablet.) Tj
+ET
+
+q
+0.5 w
+0.97 0.98 0.99 rg
+0.85 0.85 0.85 RG
+40.00 406.25 515.00 14.75 re
+B
+Q
+
+BT
+/F2 7 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 44.00 410.00 Tm
+(historial_ventas / fact.) Tj
+ET
+
+BT
+/F1 7 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 129.00 410.00 Tm
+(NO) Tj
+ET
+
+BT
+/F1 7 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 169.00 410.00 Tm
+(Exclusivo PostgreSQL) Tj
+ET
+
+BT
+/F1 7 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 284.00 410.00 Tm
+(Libro diario y facturación contable. Su transferencia sobrecargaría el almacenamiento local.) Tj
+ET
+
+q
+1 w
+0.95 0.97 1 rg
+0.2 0.4 0.7 RG
+40.00 395.00 515.00 52.00 re
+B
+Q
+
+BT
+/F2 8.5 Tf
+0.1 0.25 0.55 rg
+1 0 0 1 48.00 434.00 Tm
+(Fundamento de la Fuente de Verdad y Modelo Offline-First) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 48.00 422.00 Tm
+(¿Por qué viajan estos datos y los otros no?: Viaja estrictamente el conjunto mínimo de atributos para la venta y confección de) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 48.00 411.50 Tm
+(borradores rápidos sin señal. No viajan costos ni datos personales para mitigar riesgos ante pérdida o sustracción de la tablet.) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 48.00 401.00 Tm
+(¿Quién es la Fuente de Verdad?: PostgreSQL es la única fuente de verdad \(Single Source of Truth\). La tablet almacena una copia) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 48.00 390.50 Tm
+(efímera y subordinada en 'producto_cache'. Ningún cambio en la tablet puede modificar el catálogo central sin pasar por PostgreSQL.) Tj
+ET
+
+q
+1 w
+0.15 0.35 0.65 rg
+40.00 365.00 4.00 22.00 re
+f
+Q
+
+BT
+/F2 11 Tf
+0.1 0.2 0.45 rg
+1 0 0 1 50.00 377.00 Tm
+(Consigna 1.b · Esquema SQLite \(STRICT\) para la Tablet Móvil) Tj
+ET
+
+BT
+/F3 8 Tf
+0.4 0.4 0.4 rg
+1 0 0 1 50.00 367.00 Tm
+(Estructura DDL implementada en 'movil/schema_sqlite.sql' con PRAGMA foreign_keys = ON) Tj
+ET
+
+q
+1 w
+0.2 0.35 0.6 rg
+0.15 0.25 0.45 RG
+40.00 329.00 515.00 16.00 re
+B
+Q
+
+BT
+/F2 7.5 Tf
+1 1 1 rg
+1 0 0 1 44.00 333.50 Tm
+(Tabla SQLite) Tj
+ET
+
+BT
+/F2 7.5 Tf
+1 1 1 rg
+1 0 0 1 129.00 333.50 Tm
+(Modo) Tj
+ET
+
+BT
+/F2 7.5 Tf
+1 1 1 rg
+1 0 0 1 174.00 333.50 Tm
+(Columnas Principales) Tj
+ET
+
+BT
+/F2 7.5 Tf
+1 1 1 rg
+1 0 0 1 349.00 333.50 Tm
+(Restricciones de Integridad y Dominio) Tj
+ET
+
+q
+0.5 w
+0.97 0.98 0.99 rg
+0.85 0.85 0.85 RG
+40.00 314.25 515.00 14.75 re
+B
+Q
+
+BT
+/F2 7 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 44.00 318.00 Tm
+(producto_cache) Tj
+ET
+
+BT
+/F1 7 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 129.00 318.00 Tm
+(STRICT) Tj
+ET
+
+BT
+/F1 7 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 174.00 318.00 Tm
+(id, nombre, precio_centavos, stock_visto, disponible, ...) Tj
+ET
+
+BT
+/F1 7 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 349.00 318.00 Tm
+(CHECK\(precio_centavos >= 0\), CHECK\(disponible IN \(0,1\)\), CHECK\(eliminado IN \(0,1\)\).) Tj
+ET
+
+q
+0.5 w
+1 1 1 rg
+0.85 0.85 0.85 RG
+40.00 299.50 515.00 14.75 re
+B
+Q
+
+BT
+/F2 7 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 44.00 303.25 Tm
+(pedido_borrador) Tj
+ET
+
+BT
+/F1 7 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 129.00 303.25 Tm
+(STRICT) Tj
+ET
+
+BT
+/F1 7 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 174.00 303.25 Tm
+(id_local \(UUID PK\), usuario, forma_pago, fecha) Tj
+ET
+
+BT
+/F1 7 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 349.00 303.25 Tm
+(CHECK\(forma_pago IN \('EFECTIVO', 'TARJETA', 'TRANSFERENCIA'\)\).) Tj
+ET
+
+q
+0.5 w
+0.97 0.98 0.99 rg
+0.85 0.85 0.85 RG
+40.00 284.75 515.00 14.75 re
+B
+Q
+
+BT
+/F2 7 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 44.00 288.50 Tm
+(item_borrador) Tj
+ET
+
+BT
+/F1 7 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 129.00 288.50 Tm
+(STRICT) Tj
+ET
+
+BT
+/F1 7 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 174.00 288.50 Tm
+(id_local, producto_id, cantidad, precio_visto) Tj
+ET
+
+BT
+/F1 7 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 349.00 288.50 Tm
+(FK a pedido_borrador \(ON DELETE CASCADE\), FK a producto_cache, CHECK\(cantidad > 0\).) Tj
+ET
+
+q
+0.5 w
+1 1 1 rg
+0.85 0.85 0.85 RG
+40.00 270.00 515.00 14.75 re
+B
+Q
+
+BT
+/F2 7 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 44.00 273.75 Tm
+(cola_sync) Tj
+ET
+
+BT
+/F1 7 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 129.00 273.75 Tm
+(STRICT) Tj
+ET
+
+BT
+/F1 7 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 174.00 273.75 Tm
+(solicitud_uuid PK, id_local, estado, motivo) Tj
+ET
+
+BT
+/F1 7 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 349.00 273.75 Tm
+(CHECK\(estado IN \('PENDIENTE', 'CONFLICTO', 'RECHAZADO', 'SIMULADO_APROBADO'\)\).) Tj
+ET
+
+
+q
+0.8 w
+0.85 0.85 0.85 RG
+40 38 m 555.28 38 l S
+BT
+/F1 8 Tf
+0.4 0.4 0.4 rg
+1 0 0 1 40 26 Tm
+(Equipo: Gimenez, Saleme, Coronel y Godoy  ·  Ciclo Lectivo 2026) Tj
+1 0 0 1 480.28 26 Tm
+(Página 1 de 6) Tj
+ET
+Q
+
+endstream
+endobj
+8 0 obj
+<<
+/Type /Page
+/Parent 2 0 R
+/MediaBox [0 0 595.28 841.89]
+/Contents 7 0 R
+/Resources <<
+  /Font <<
+    /F1 3 0 R
+    /F2 4 0 R
+    /F3 5 0 R
+    /F4 6 0 R
+  >>
+>>
+>>
+endobj
+9 0 obj
+<< /Length 6623 >>
+stream
+
+q
+0.8 w
+0.8 0.85 0.9 RG
+40 805 m 555.28 805 l S
+BT
+/F2 8 Tf
+0.3 0.35 0.45 rg
+1 0 0 1 40 812 Tm
+(UTN - TECNICATURA UNIVERSITARIA EN PROGRAMACIÓN  |  BASE DE DATOS II) Tj
+1 0 0 1 370 812 Tm
+(TP N.º 8: Food Store en la Feria \(Unidad 8\)) Tj
+ET
+Q
+
+q
+1 w
+0.15 0.35 0.65 rg
+40.00 775.00 4.00 22.00 re
+f
+Q
+
+BT
+/F2 11 Tf
+0.1 0.2 0.45 rg
+1 0 0 1 50.00 787.00 Tm
+(Consigna 2 · Sincronizar y Resolver: El Semáforo Offline) Tj
+ET
+
+BT
+/F3 8 Tf
+0.4 0.4 0.4 rg
+1 0 0 1 50.00 777.00 Tm
+(Paradas 5 a 8: Detección de anomalías, lápidas y resolución determinista de borradores) Tj
+ET
+
+q
+1 w
+0.95 0.97 1 rg
+0.2 0.4 0.7 RG
+40.00 715.00 515.00 46.00 re
+B
+Q
+
+BT
+/F2 8.5 Tf
+0.1 0.25 0.55 rg
+1 0 0 1 48.00 748.00 Tm
+(Mecánica Operativa del Semáforo en 'movil/semaforo.sql') Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 48.00 736.00 Tm
+(El semáforo contrasta cada solicitud PENDIENTE de 'cola_sync' contra la instantánea 'snapshot_servidor' descargada.) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 48.00 725.50 Tm
+(• ROJO \(RECHAZADO\): Producto dado de baja \(eliminado='t'\), inactivo \(disponible<>'t'\), inexistente o stock insuficiente.) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 48.00 715.00 Tm
+(• AMARILLO \(CONFLICTO\): Todos los productos son válidos y tienen stock, pero varió algún precio visto \(precio_visto <> actual\).) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 48.00 704.50 Tm
+(• VERDE \(SIMULADO_APROBADO\): Stock, disponibilidad y precio concuerdan plenamente. Idempotente: solo evalúa PENDIENTE.) Tj
+ET
+
+q
+1 w
+0.99 0.99 1 rg
+0.75 0.8 0.9 RG
+40.00 575.00 515.00 125.00 re
+B
+Q
+
+BT
+/F2 8 Tf
+0.1 0.25 0.6 rg
+1 0 0 1 50.00 686.00 Tm
+(CASO C2 · Detección de Conflicto de Precio y Renegociación con Cliente \(Resultado: CONFLICTO -> SIMULADO_APROBADO\)) Tj
+ET
+
+BT
+/F2 7.5 Tf
+0.3 0.3 0.3 rg
+1 0 0 1 50.00 674.00 Tm
+(Preparación y Comandos Ejecutados:) Tj
+ET
+
+BT
+/F4 7 Tf
+0.2 0.3 0.5 rg
+1 0 0 1 50.00 663.00 Tm
+(-- 1. La tablet arma borrador con Hamburguesa Doble a precio viejo $5500 \(550000 centavos\):) Tj
+ET
+
+BT
+/F4 7 Tf
+0.1 0.1 0.1 rg
+1 0 0 1 50.00 653.00 Tm
+(INSERT INTO item_borrador VALUES \('borrador-c2', 102, 1, 550000\);) Tj
+ET
+
+BT
+/F4 7 Tf
+0.1 0.1 0.1 rg
+1 0 0 1 50.00 643.00 Tm
+(INSERT INTO cola_sync VALUES \('solicitud-c2-v1', 'borrador-c2', 'PENDIENTE', NULL\);) Tj
+ET
+
+BT
+/F4 7 Tf
+0.2 0.3 0.5 rg
+1 0 0 1 50.00 633.00 Tm
+(-- 2. En el servidor el precio se incrementó a $6000 \(600000 centavos\). Al correr semaforo.sql:) Tj
+ET
+
+BT
+/F2 7.5 Tf
+0.7 0.45 0.05 rg
+1 0 0 1 50.00 622.00 Tm
+(Resultado 1: ESTADO = 'CONFLICTO' | Motivo = 'Conflicto de precio: Diferencia en Hamb. Doble \(visto: $5500.00, servidor: $6000.00\)') Tj
+ET
+
+BT
+/F4 7 Tf
+0.2 0.3 0.5 rg
+1 0 0 1 50.00 610.00 Tm
+(-- 3. El cajero informa el aumento al cliente, quien acepta. Se actualiza el borrador y se encola nueva solicitud:) Tj
+ET
+
+BT
+/F4 7 Tf
+0.1 0.1 0.1 rg
+1 0 0 1 50.00 600.00 Tm
+(UPDATE item_borrador SET precio_centavos_visto = 600000 WHERE id_local = 'borrador-c2';) Tj
+ET
+
+BT
+/F4 7 Tf
+0.1 0.1 0.1 rg
+1 0 0 1 50.00 590.00 Tm
+(INSERT INTO cola_sync VALUES \('solicitud-c2-v2', 'borrador-c2', 'PENDIENTE', NULL\); -- Se corre semáforo nuevamente) Tj
+ET
+
+BT
+/F2 7.5 Tf
+0.15 0.55 0.25 rg
+1 0 0 1 50.00 579.00 Tm
+(Resultado 2: ESTADO = 'SIMULADO_APROBADO' | Motivo = 'Validación simulada exitosa: stock y precios coinciden') Tj
+ET
+
+q
+1 w
+0.99 0.99 1 rg
+0.75 0.8 0.9 RG
+40.00 440.00 515.00 122.00 re
+B
+Q
+
+BT
+/F2 8 Tf
+0.7 0.15 0.15 rg
+1 0 0 1 50.00 549.00 Tm
+(CASO C3 · Superación de Stock Disponible en el Servidor \(Resultado: RECHAZADO\)) Tj
+ET
+
+BT
+/F2 7.5 Tf
+0.3 0.3 0.3 rg
+1 0 0 1 50.00 537.00 Tm
+(Preparación y Comandos Ejecutados:) Tj
+ET
+
+BT
+/F4 7 Tf
+0.2 0.3 0.5 rg
+1 0 0 1 50.00 526.00 Tm
+(-- En el snapshot central, la Cerveza Artesanal IPA \(ID 105\) solo posee stock = 5:) Tj
+ET
+
+BT
+/F4 7 Tf
+0.1 0.1 0.1 rg
+1 0 0 1 50.00 516.00 Tm
+(INSERT INTO pedido_borrador VALUES \('borrador-c3', 'cliente_c3', 'EFECTIVO', '2026-11-08 19:40:00'\);) Tj
+ET
+
+BT
+/F4 7 Tf
+0.1 0.1 0.1 rg
+1 0 0 1 50.00 506.00 Tm
+(INSERT INTO item_borrador VALUES \('borrador-c3', 105, 10, 320000\); -- Solicita 10 unidades \(> 5\)) Tj
+ET
+
+BT
+/F4 7 Tf
+0.1 0.1 0.1 rg
+1 0 0 1 50.00 496.00 Tm
+(INSERT INTO cola_sync VALUES \('solicitud-c3', 'borrador-c3', 'PENDIENTE', NULL\);) Tj
+ET
+
+BT
+/F2 7.5 Tf
+0.75 0.15 0.15 rg
+1 0 0 1 50.00 484.00 Tm
+(Resultado: ESTADO = 'RECHAZADO') Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 50.00 474.00 Tm
+(Motivo: 'Rechazado: Stock insuficiente en Cerveza Artesanal IPA \(solicitado: 10, disponible: 5\)') Tj
+ET
+
+BT
+/F3 7.5 Tf
+0.3 0.3 0.3 rg
+1 0 0 1 50.00 461.00 Tm
+(Explicación: El semáforo detecta que la cantidad demandada supera la existencia real del servidor, evitando vender) Tj
+ET
+
+BT
+/F3 7.5 Tf
+0.3 0.3 0.3 rg
+1 0 0 1 50.00 450.00 Tm
+(mercadería inexistente. La orden queda vetada de raíz sin afectar los registros centrales.) Tj
+ET
+
+q
+1 w
+0.99 0.99 1 rg
+0.75 0.8 0.9 RG
+40.00 305.00 515.00 122.00 re
+B
+Q
+
+BT
+/F2 8 Tf
+0.7 0.15 0.15 rg
+1 0 0 1 50.00 414.00 Tm
+(CASO C4 · Producto Dado de Baja Lógica / Lápida \(Resultado: RECHAZADO y Persistencia de Lápida\)) Tj
+ET
+
+BT
+/F2 7.5 Tf
+0.3 0.3 0.3 rg
+1 0 0 1 50.00 402.00 Tm
+(Preparación y Comandos Ejecutados:) Tj
+ET
+
+BT
+/F4 7 Tf
+0.2 0.3 0.5 rg
+1 0 0 1 50.00 391.00 Tm
+(-- En el servidor, 'Promo Combo Amigos' \(ID 108\) fue marcado como eliminado='t' \(baja lógica\):) Tj
+ET
+
+BT
+/F4 7 Tf
+0.1 0.1 0.1 rg
+1 0 0 1 50.00 381.00 Tm
+(INSERT INTO pedido_borrador VALUES \('borrador-c4', 'cliente_c4', 'TRANSFERENCIA', '2026-11-08 19:45:00'\);) Tj
+ET
+
+BT
+/F4 7 Tf
+0.1 0.1 0.1 rg
+1 0 0 1 50.00 371.00 Tm
+(INSERT INTO item_borrador VALUES \('borrador-c4', 108, 1, 990000\);) Tj
+ET
+
+BT
+/F4 7 Tf
+0.1 0.1 0.1 rg
+1 0 0 1 50.00 361.00 Tm
+(INSERT INTO cola_sync VALUES \('solicitud-c4', 'borrador-c4', 'PENDIENTE', NULL\);) Tj
+ET
+
+BT
+/F2 7.5 Tf
+0.75 0.15 0.15 rg
+1 0 0 1 50.00 349.00 Tm
+(Resultado: ESTADO = 'RECHAZADO' | Motivo = 'Rechazado: Producto dado de baja lógica / lápida \(Promo Combo Amigos\)') Tj
+ET
+
+BT
+/F4 7 Tf
+0.2 0.3 0.5 rg
+1 0 0 1 50.00 337.00 Tm
+(-- Comprobación de persistencia de lápida tras recargar producto_cache desde snapshot:) Tj
+ET
+
+BT
+/F4 7 Tf
+0.1 0.1 0.1 rg
+1 0 0 1 50.00 327.00 Tm
+(SELECT id, nombre, disponible, eliminado FROM producto_cache WHERE id = 108;  --> [108, 'Promo Combo', 1, 1]) Tj
+ET
+
+BT
+/F4 7 Tf
+0.1 0.1 0.1 rg
+1 0 0 1 50.00 317.00 Tm
+(SELECT * FROM producto_cache WHERE disponible = 1 AND eliminado = 0;           --> El producto 108 NO APARECE) Tj
+ET
+
+
+q
+0.8 w
+0.85 0.85 0.85 RG
+40 38 m 555.28 38 l S
+BT
+/F1 8 Tf
+0.4 0.4 0.4 rg
+1 0 0 1 40 26 Tm
+(Equipo: Gimenez, Saleme, Coronel y Godoy  ·  Ciclo Lectivo 2026) Tj
+1 0 0 1 480.28 26 Tm
+(Página 2 de 6) Tj
+ET
+Q
+
+endstream
+endobj
+10 0 obj
+<<
+/Type /Page
+/Parent 2 0 R
+/MediaBox [0 0 595.28 841.89]
+/Contents 9 0 R
+/Resources <<
+  /Font <<
+    /F1 3 0 R
+    /F2 4 0 R
+    /F3 5 0 R
+    /F4 6 0 R
+  >>
+>>
+>>
+endobj
+11 0 obj
+<< /Length 5310 >>
+stream
+
+q
+0.8 w
+0.8 0.85 0.9 RG
+40 805 m 555.28 805 l S
+BT
+/F2 8 Tf
+0.3 0.35 0.45 rg
+1 0 0 1 40 812 Tm
+(UTN - TECNICATURA UNIVERSITARIA EN PROGRAMACIÓN  |  BASE DE DATOS II) Tj
+1 0 0 1 370 812 Tm
+(TP N.º 8: Food Store en la Feria \(Unidad 8\)) Tj
+ET
+Q
+
+q
+1 w
+0.15 0.35 0.65 rg
+40.00 775.00 4.00 22.00 re
+f
+Q
+
+BT
+/F2 11 Tf
+0.1 0.2 0.45 rg
+1 0 0 1 50.00 787.00 Tm
+(Consigna 2.c · Casos C5 y C6, Idempotencia e Inmutabilidad en PostgreSQL) Tj
+ET
+
+BT
+/F3 8 Tf
+0.4 0.4 0.4 rg
+1 0 0 1 50.00 777.00 Tm
+(Validación completa de la Regla de Oro y Parada 8 de la cursada) Tj
+ET
+
+q
+1 w
+0.99 0.99 1 rg
+0.75 0.8 0.9 RG
+40.00 680.00 515.00 88.00 re
+B
+Q
+
+BT
+/F2 8 Tf
+0.15 0.55 0.25 rg
+1 0 0 1 50.00 756.00 Tm
+(CASO C5 · Borrador Válido sin Cambios \(Resultado: SIMULADO_APROBADO\)) Tj
+ET
+
+BT
+/F2 7.5 Tf
+0.3 0.3 0.3 rg
+1 0 0 1 50.00 744.00 Tm
+(Preparación y Comandos:) Tj
+ET
+
+BT
+/F4 7 Tf
+0.1 0.1 0.1 rg
+1 0 0 1 50.00 733.00 Tm
+(INSERT INTO pedido_borrador VALUES \('borrador-c5', 'cliente_c5', 'EFECTIVO', '2026-11-08 19:30:00'\);) Tj
+ET
+
+BT
+/F4 7 Tf
+0.1 0.1 0.1 rg
+1 0 0 1 50.00 723.00 Tm
+(INSERT INTO item_borrador VALUES \('borrador-c5', 101, 2, 450000\), \('borrador-c5', 103, 1, 220000\);) Tj
+ET
+
+BT
+/F4 7 Tf
+0.1 0.1 0.1 rg
+1 0 0 1 50.00 713.00 Tm
+(INSERT INTO cola_sync VALUES \('solicitud-c5', 'borrador-c5', 'PENDIENTE', NULL\);) Tj
+ET
+
+BT
+/F2 7.5 Tf
+0.15 0.55 0.25 rg
+1 0 0 1 50.00 701.00 Tm
+(Resultado del Semáforo: ESTADO = 'SIMULADO_APROBADO') Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 50.00 691.00 Tm
+(Motivo: 'Validación simulada exitosa: stock y precios coinciden con el servidor') Tj
+ET
+
+q
+1 w
+0.99 0.99 1 rg
+0.75 0.8 0.9 RG
+40.00 515.00 515.00 150.00 re
+B
+Q
+
+BT
+/F2 8 Tf
+0.2 0.35 0.65 rg
+1 0 0 1 50.00 653.00 Tm
+(CASO C6 · Reenvío de Solicitud Duplicada \(mismo UUID\) e Idempotencia Local) Tj
+ET
+
+BT
+/F2 7.5 Tf
+0.3 0.3 0.3 rg
+1 0 0 1 50.00 641.00 Tm
+(Comando ejecutado en la Tablet:) Tj
+ET
+
+BT
+/F4 7 Tf
+0.1 0.1 0.1 rg
+1 0 0 1 50.00 630.00 Tm
+(INSERT INTO cola_sync VALUES \('solicitud-c5', 'borrador-c5', 'PENDIENTE', NULL\);) Tj
+ET
+
+BT
+/F2 7.5 Tf
+0.75 0.15 0.15 rg
+1 0 0 1 50.00 619.00 Tm
+(Resultado en SQLite: Error de motor: UNIQUE constraint failed: cola_sync.solicitud_uuid) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 50.00 607.00 Tm
+(Comportamiento del Semáforo ante reejecuciones: Al correr 'semaforo.sql' por segunda vez, las solicitudes previamente) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 50.00 597.00 Tm
+(resueltas NO son alteradas ni reevaluadas gracias al predicado WHERE estado = 'PENDIENTE'.) Tj
+ET
+
+q
+0.8 w
+0.96 0.97 0.99 rg
+0.6 0.7 0.85 RG
+48.00 523.00 499.00 65.00 re
+B
+Q
+
+BT
+/F2 7.5 Tf
+0.1 0.25 0.55 rg
+1 0 0 1 55.00 577.00 Tm
+(¿DÓNDE IRÍA LA PROTECCIÓN REAL EN UN SISTEMA DE VERDAD? \(Parada 8 del apunte\):) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 55.00 566.00 Tm
+(En una arquitectura de producción distribuida, la protección real contra duplicaciones DEBE residir en el Servidor Central:) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 55.00 555.00 Tm
+(1. El cliente móvil adjunta un token universal \(ej. encabezado HTTP 'Idempotency-Key: <solicitud_uuid>'\).) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 55.00 544.00 Tm
+(2. PostgreSQL verifica una tabla transaccional de deduplicación: 'idempotency_keys\(key UUID PK, response JSON, created_at\)'.) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 55.00 533.00 Tm
+(3. Si el UUID ya fue procesado, el backend retorna la respuesta guardada sin volver a descontar stock ni cobrar.) Tj
+ET
+
+q
+1 w
+0.15 0.35 0.65 rg
+40.00 490.00 4.00 22.00 re
+f
+Q
+
+BT
+/F2 11 Tf
+0.1 0.2 0.45 rg
+1 0 0 1 50.00 502.00 Tm
+(Demostración de Inmutabilidad en PostgreSQL \(Regla de Oro\)) Tj
+ET
+
+BT
+/F3 8 Tf
+0.4 0.4 0.4 rg
+1 0 0 1 50.00 492.00 Tm
+(Comprobación de que la simulación offline no alteró stock ni creó pedidos en el servidor) Tj
+ET
+
+q
+1 w
+0.94 0.98 0.95 rg
+0.25 0.65 0.35 RG
+40.00 365.00 515.00 115.00 re
+B
+Q
+
+BT
+/F2 8 Tf
+0.15 0.45 0.2 rg
+1 0 0 1 50.00 467.00 Tm
+(CONSULTA EJECUTADA EN POSTGRESQL TRAS COMPLETAR TODAS LAS SIMULACIONES:) Tj
+ET
+
+BT
+/F4 7.5 Tf
+0.1 0.2 0.4 rg
+1 0 0 1 50.00 455.00 Tm
+(SELECT COUNT\(*\) AS total_pedidos_servidor FROM pedidos;) Tj
+ET
+
+BT
+/F2 7.5 Tf
+0.1 0.4 0.15 rg
+1 0 0 1 50.00 444.00 Tm
+(--> Resultado: 0 filas nuevas \(el contador permanece idéntico al valor previo a las pruebas\).) Tj
+ET
+
+BT
+/F4 7.5 Tf
+0.1 0.2 0.4 rg
+1 0 0 1 50.00 430.00 Tm
+(SELECT id, nombre, stock FROM productos WHERE id IN \(101, 102, 105, 108\) ORDER BY id;) Tj
+ET
+
+BT
+/F2 7.5 Tf
+0.1 0.4 0.15 rg
+1 0 0 1 50.00 420.00 Tm
+(--> Resultado: 101: Hamb. Clásica \(stock 25\) | 102: Hamb. Doble \(stock 15\) | 105: Cerveza \(stock 5\) | 108: Combo \(stock 8\)) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 50.00 406.00 Tm
+(Conclusión Irrefutable: Los estados 'SIMULADO_APROBADO' generados en la tablet operaron estrictamente en la base local) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 50.00 396.00 Tm
+(SQLite. La base PostgreSQL de pruebas no sufrió mutaciones de stock ni inserciones de ventas espurias, validando el postulado) Tj
+ET
+
+BT
+/F2 7.5 Tf
+0.15 0.45 0.2 rg
+1 0 0 1 50.00 386.00 Tm
+(canónico: 'El móvil propone, el servidor dispone'.) Tj
+ET
+
+
+q
+0.8 w
+0.85 0.85 0.85 RG
+40 38 m 555.28 38 l S
+BT
+/F1 8 Tf
+0.4 0.4 0.4 rg
+1 0 0 1 40 26 Tm
+(Equipo: Gimenez, Saleme, Coronel y Godoy  ·  Ciclo Lectivo 2026) Tj
+1 0 0 1 480.28 26 Tm
+(Página 3 de 6) Tj
+ET
+Q
+
+endstream
+endobj
+12 0 obj
+<<
+/Type /Page
+/Parent 2 0 R
+/MediaBox [0 0 595.28 841.89]
+/Contents 11 0 R
+/Resources <<
+  /Font <<
+    /F1 3 0 R
+    /F2 4 0 R
+    /F3 5 0 R
+    /F4 6 0 R
+  >>
+>>
+>>
+endobj
+13 0 obj
+<< /Length 7570 >>
+stream
+
+q
+0.8 w
+0.8 0.85 0.9 RG
+40 805 m 555.28 805 l S
+BT
+/F2 8 Tf
+0.3 0.35 0.45 rg
+1 0 0 1 40 812 Tm
+(UTN - TECNICATURA UNIVERSITARIA EN PROGRAMACIÓN  |  BASE DE DATOS II) Tj
+1 0 0 1 370 812 Tm
+(TP N.º 8: Food Store en la Feria \(Unidad 8\)) Tj
+ET
+Q
+
+q
+1 w
+0.15 0.35 0.65 rg
+40.00 775.00 4.00 22.00 re
+f
+Q
+
+BT
+/F2 11 Tf
+0.1 0.2 0.45 rg
+1 0 0 1 50.00 787.00 Tm
+(Consigna 3.a · Mapa de la Capa de Datos: Los Tres Motores de Food Store) Tj
+ET
+
+BT
+/F3 8 Tf
+0.4 0.4 0.4 rg
+1 0 0 1 50.00 777.00 Tm
+(Parada 9: Gobernanza, almacenamiento políglota y soberanía sobre la información) Tj
+ET
+
+q
+1 w
+0.2 0.35 0.6 rg
+0.15 0.25 0.45 RG
+40.00 739.00 515.00 16.00 re
+B
+Q
+
+BT
+/F2 7.5 Tf
+1 1 1 rg
+1 0 0 1 44.00 743.50 Tm
+(Motor de BD) Tj
+ET
+
+BT
+/F2 7.5 Tf
+1 1 1 rg
+1 0 0 1 124.00 743.50 Tm
+(Tecnología y Rol) Tj
+ET
+
+BT
+/F2 7.5 Tf
+1 1 1 rg
+1 0 0 1 234.00 743.50 Tm
+(Qué Información Almacena) Tj
+ET
+
+BT
+/F2 7.5 Tf
+1 1 1 rg
+1 0 0 1 414.00 743.50 Tm
+(Quién Manda \(Soberanía de Datos\)) Tj
+ET
+
+q
+0.5 w
+0.97 0.98 0.99 rg
+0.85 0.85 0.85 RG
+40.00 713.00 515.00 26.00 re
+B
+Q
+
+BT
+/F2 7 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 44.00 728.00 Tm
+(PostgreSQL 16+) Tj
+ET
+
+BT
+/F1 7 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 124.00 728.00 Tm
+(Relacional Central) Tj
+ET
+
+BT
+/F1 7 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 124.00 719.60 Tm
+(Servidor Cloud / On-Prem) Tj
+ET
+
+BT
+/F1 7 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 234.00 728.00 Tm
+(Entidades maestras: clientes, empleados, cuentas,) Tj
+ET
+
+BT
+/F1 7 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 234.00 719.60 Tm
+(catálogo oficial de precios, órdenes y stock real.) Tj
+ET
+
+BT
+/F1 7 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 414.00 728.00 Tm
+(FUENTE DE VERDAD SOBERANA ÚNICA sobre precios,) Tj
+ET
+
+BT
+/F1 7 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 414.00 719.60 Tm
+(existencias de inventario, facturación y cobro.) Tj
+ET
+
+q
+0.5 w
+1 1 1 rg
+0.85 0.85 0.85 RG
+40.00 687.00 515.00 26.00 re
+B
+Q
+
+BT
+/F2 7 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 44.00 702.00 Tm
+(MongoDB 7+) Tj
+ET
+
+BT
+/F1 7 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 124.00 702.00 Tm
+(Documental NoSQL) Tj
+ET
+
+BT
+/F1 7 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 124.00 693.60 Tm
+(Lectura y Social \(U7\)) Tj
+ET
+
+BT
+/F1 7 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 234.00 702.00 Tm
+(Catálogo desnormalizado para consultas web rápidas,) Tj
+ET
+
+BT
+/F1 7 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 234.00 693.60 Tm
+(opiniones y reseñas de comensales \(reviews 1-5*\).) Tj
+ET
+
+BT
+/F1 7 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 414.00 702.00 Tm
+(SOBERANO sobre reseñas y calificaciones de clientes.) Tj
+ET
+
+BT
+/F1 7 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 414.00 693.60 Tm
+(Copia esclava de lectura para catálogo web.) Tj
+ET
+
+q
+0.5 w
+0.97 0.98 0.99 rg
+0.85 0.85 0.85 RG
+40.00 661.00 515.00 26.00 re
+B
+Q
+
+BT
+/F2 7 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 44.00 676.00 Tm
+(SQLite 3.37+) Tj
+ET
+
+BT
+/F1 7 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 124.00 676.00 Tm
+(Relacional Embebido) Tj
+ET
+
+BT
+/F1 7 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 124.00 667.60 Tm
+(Offline en Tablet \(U8\)) Tj
+ET
+
+BT
+/F1 7 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 234.00 676.00 Tm
+(Copia local de catálogo \('producto_cache'\), borradores) Tj
+ET
+
+BT
+/F1 7 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 234.00 667.60 Tm
+(temporales creados sin señal y 'cola_sync'.) Tj
+ET
+
+BT
+/F1 7 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 414.00 676.00 Tm
+(SOBERANÍA LOCAL LIMITADA únicamente a borradores) Tj
+ET
+
+BT
+/F1 7 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 414.00 667.60 Tm
+(locales de esa tablet. NUNCA sobre precios o stock.) Tj
+ET
+
+q
+1 w
+0.15 0.35 0.65 rg
+40.00 636.00 4.00 22.00 re
+f
+Q
+
+BT
+/F2 11 Tf
+0.1 0.2 0.45 rg
+1 0 0 1 50.00 648.00 Tm
+(Consigna 3.b · Plan de Mantenimiento y Recuperación ante Contingencias) Tj
+ET
+
+BT
+/F3 8 Tf
+0.4 0.4 0.4 rg
+1 0 0 1 50.00 638.00 Tm
+(Parada 9: Respaldo, prueba de restauración, desincronización de tablets y auditoría) Tj
+ET
+
+q
+1 w
+0.98 0.98 0.99 rg
+0.8 0.85 0.9 RG
+40.00 551.00 515.00 82.00 re
+B
+Q
+
+BT
+/F2 8 Tf
+0.15 0.3 0.6 rg
+1 0 0 1 50.00 623.00 Tm
+(1. ¿QUÉ SE RESPALDA Y CÓMO SE PRUEBA LA RESTAURACIÓN? \(Integración con Unidad 6\):) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 50.00 611.00 Tm
+(• PostgreSQL: Se ejecuta un 'pg_dump' lógico integral diario \(comprimido en formato custom\) junto con archivado continuo) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 50.00 601.00 Tm
+(  de WAL \(Write-Ahead Logging\) para permitir Point-In-Time Recovery \(PITR\) ante incidentes graves.) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 50.00 591.00 Tm
+(• MongoDB: Respaldo semanal mediante 'mongodump' de las colecciones de reseñas y auditoría.) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 50.00 581.00 Tm
+(• Tablets \(SQLite\): No requieren backup centralizado porque sus datos son transitorios y derivados. Si una tablet se destruye,) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 50.00 571.00 Tm
+(  se provisiona otra con un snapshot limpio desde el servidor central.) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 50.00 561.00 Tm
+(• Prueba de Restauración: Mensualmente un script automatizado restaura el backup en un contenedor de staging aislado.) Tj
+ET
+
+q
+1 w
+0.98 0.98 0.99 rg
+0.8 0.85 0.9 RG
+40.00 453.00 515.00 84.00 re
+B
+Q
+
+BT
+/F2 8 Tf
+0.15 0.3 0.6 rg
+1 0 0 1 50.00 529.00 Tm
+(2. SI SE RESTAURA UN RESPALDO VIEJO DE POSTGRESQL, ¿QUÉ HACEN LAS TABLETS?:) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 50.00 517.00 Tm
+(• Problema de Split-Brain / Viaje en el Tiempo: Si PostgreSQL vuelve a un estado de hace 48 horas, las tablets podrían tener) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 50.00 507.00 Tm
+(  snapshots con precios y stock más recientes que el servidor restaurado.) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 50.00 497.00 Tm
+(• Protocolo de Época \(Epoch Versioning\): Toda instantánea posee un 'epoch_id' emitido por el servidor. Al restaurar un backup) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 50.00 487.00 Tm
+(  antiguo, el administrador incrementa forzosamente la versión de época central \('server_epoch = server_epoch + 1'\).) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 50.00 477.00 Tm
+(• Reacción de la Tablet: Al reconectar y detectar discrepancia de época, la tablet INVALIDA de inmediato 'producto_cache',) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 50.00 467.00 Tm
+(  descarga la instantánea vigente y marca sus borradores pendientes en 'CONFLICTO' para su revalidación manual.) Tj
+ET
+
+q
+1 w
+0.98 0.98 0.99 rg
+0.8 0.85 0.9 RG
+40.00 355.00 515.00 84.00 re
+B
+Q
+
+BT
+/F2 8 Tf
+0.15 0.3 0.6 rg
+1 0 0 1 50.00 431.00 Tm
+(3. ¿CADA CUÁNTO Y QUIÉN REVISA LAS SOLICITUDES EN CONFLICTO O RECHAZADO?:) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 50.00 419.00 Tm
+(• Nivel Operativo Local \(En la Tablet\): El cajero/operador de la tablet revisa las solicitudes en tiempo real durante la venta.) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 50.00 409.00 Tm
+(  Si surge CONFLICTO de precio, lo negocia en el mostrador con el cliente; si hay RECHAZADO, ofrece un sustituto de menú.) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 50.00 399.00 Tm
+(• Nivel Táctico / Supervisor \(En el Servidor Central\): El encargado del food truck revisa al cierre de cada jornada \(diariamente\)) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 50.00 389.00 Tm
+(  el log de sincronización para auditar artículos con quiebres recurrentes de stock y discrepancias de precios.) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 50.00 379.00 Tm
+(• Nivel Estratégico \(Semanal\): El equipo de compras y base de datos analiza los ítems rechazados por 'lápida' para depurar) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 50.00 369.00 Tm
+(  definitivamente productos obsoletos y ajustar políticas de reabastecimiento en eventos masivos.) Tj
+ET
+
+
+q
+0.8 w
+0.85 0.85 0.85 RG
+40 38 m 555.28 38 l S
+BT
+/F1 8 Tf
+0.4 0.4 0.4 rg
+1 0 0 1 40 26 Tm
+(Equipo: Gimenez, Saleme, Coronel y Godoy  ·  Ciclo Lectivo 2026) Tj
+1 0 0 1 480.28 26 Tm
+(Página 4 de 6) Tj
+ET
+Q
+
+endstream
+endobj
+14 0 obj
+<<
+/Type /Page
+/Parent 2 0 R
+/MediaBox [0 0 595.28 841.89]
+/Contents 13 0 R
+/Resources <<
+  /Font <<
+    /F1 3 0 R
+    /F2 4 0 R
+    /F3 5 0 R
+    /F4 6 0 R
+  >>
+>>
+>>
+endobj
+15 0 obj
+<< /Length 8877 >>
+stream
+
+q
+0.8 w
+0.8 0.85 0.9 RG
+40 805 m 555.28 805 l S
+BT
+/F2 8 Tf
+0.3 0.35 0.45 rg
+1 0 0 1 40 812 Tm
+(UTN - TECNICATURA UNIVERSITARIA EN PROGRAMACIÓN  |  BASE DE DATOS II) Tj
+1 0 0 1 370 812 Tm
+(TP N.º 8: Food Store en la Feria \(Unidad 8\)) Tj
+ET
+Q
+
+q
+1 w
+0.15 0.35 0.65 rg
+40.00 775.00 4.00 22.00 re
+f
+Q
+
+BT
+/F2 11 Tf
+0.1 0.2 0.45 rg
+1 0 0 1 50.00 787.00 Tm
+(Consigna 3.c · Code Review con IA sobre Scripts de la Cursada) Tj
+ET
+
+BT
+/F3 8 Tf
+0.4 0.4 0.4 rg
+1 0 0 1 50.00 777.00 Tm
+(Parada 10: Auditoría crítica con OpenCode / Plan Agent, decisiones fundadas y comprobación en motor) Tj
+ET
+
+q
+1 w
+0.2 0.35 0.6 rg
+0.15 0.25 0.45 RG
+40.00 739.00 515.00 16.00 re
+B
+Q
+
+BT
+/F2 7.5 Tf
+1 1 1 rg
+1 0 0 1 44.00 743.50 Tm
+(Unidad / Script) Tj
+ET
+
+BT
+/F2 7.5 Tf
+1 1 1 rg
+1 0 0 1 129.00 743.50 Tm
+(Hallazgo Detectado por IA) Tj
+ET
+
+BT
+/F2 7.5 Tf
+1 1 1 rg
+1 0 0 1 269.00 743.50 Tm
+(Decisión) Tj
+ET
+
+BT
+/F2 7.5 Tf
+1 1 1 rg
+1 0 0 1 334.00 743.50 Tm
+(Motivo y Fundamentación Técnica) Tj
+ET
+
+q
+0.5 w
+0.97 0.98 0.99 rg
+0.85 0.85 0.85 RG
+40.00 715.50 515.00 23.50 re
+B
+Q
+
+BT
+/F2 7 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 44.00 728.00 Tm
+(Unidad 4 \(PostgreSQL\)) Tj
+ET
+
+BT
+/F2 7 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 44.00 719.60 Tm
+(04_indices.sql) Tj
+ET
+
+BT
+/F1 7 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 129.00 728.00 Tm
+(Falta de índice compuesto para acelerar búsquedas) Tj
+ET
+
+BT
+/F1 7 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 129.00 719.60 Tm
+(de pedidos por cliente y fecha.) Tj
+ET
+
+BT
+/F1 7 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 269.00 728.00 Tm
+(ACEPTADO) Tj
+ET
+
+BT
+/F1 7 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 269.00 719.60 Tm
+(Y APLICADO) Tj
+ET
+
+BT
+/F1 7 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 334.00 728.00 Tm
+(La IA identificó escaneos secuenciales lentos en cuenta) Tj
+ET
+
+BT
+/F1 7 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 334.00 719.60 Tm
+(corriente. Se creó índice \(cliente_id, fecha\).) Tj
+ET
+
+q
+0.5 w
+1 1 1 rg
+0.85 0.85 0.85 RG
+40.00 692.00 515.00 23.50 re
+B
+Q
+
+BT
+/F2 7 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 44.00 704.50 Tm
+(Unidad 6 \(PostgreSQL\)) Tj
+ET
+
+BT
+/F2 7 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 44.00 696.10 Tm
+(06_mantenimiento.sql) Tj
+ET
+
+BT
+/F1 7 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 129.00 704.50 Tm
+(Configuración de autovacuum demasiado laxa en) Tj
+ET
+
+BT
+/F1 7 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 129.00 696.10 Tm
+(tablas con alta tasa de UPDATE/DELETE.) Tj
+ET
+
+BT
+/F1 7 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 269.00 704.50 Tm
+(ACEPTADO) Tj
+ET
+
+BT
+/F1 7 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 269.00 696.10 Tm
+(Y CORREGIDO) Tj
+ET
+
+BT
+/F1 7 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 334.00 704.50 Tm
+(La tabla de logs acumulaba bloat excesivo. Se ajustó) Tj
+ET
+
+BT
+/F1 7 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 334.00 696.10 Tm
+('scale_factor' a 0.05 y 'cost_limit' a 1000.) Tj
+ET
+
+q
+0.5 w
+0.97 0.98 0.99 rg
+0.85 0.85 0.85 RG
+40.00 668.50 515.00 23.50 re
+B
+Q
+
+BT
+/F2 7 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 44.00 681.00 Tm
+(Unidad 7 \(MongoDB\)) Tj
+ET
+
+BT
+/F2 7 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 44.00 672.60 Tm
+(07_resenas.js) Tj
+ET
+
+BT
+/F1 7 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 129.00 681.00 Tm
+(Propuso duplicar todos los datos de producto) Tj
+ET
+
+BT
+/F1 7 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 129.00 672.60 Tm
+(dentro de cada documento de reseña.) Tj
+ET
+
+BT
+/F1 7 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 269.00 681.00 Tm
+(DESCARTADO) Tj
+ET
+
+BT
+/F1 7 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 269.00 672.60 Tm
+(CON FUND.) Tj
+ET
+
+BT
+/F1 7 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 334.00 681.00 Tm
+(Desnormalización extrema: cualquier cambio de nombre) Tj
+ET
+
+BT
+/F1 7 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 334.00 672.60 Tm
+(exigiría actualizar miles de reviews en MongoDB.) Tj
+ET
+
+q
+0.5 w
+1 1 1 rg
+0.85 0.85 0.85 RG
+40.00 645.00 515.00 23.50 re
+B
+Q
+
+BT
+/F2 7 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 44.00 657.50 Tm
+(Unidad 8 \(SQLite\)) Tj
+ET
+
+BT
+/F2 7 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 44.00 649.10 Tm
+(schema_sqlite.sql) Tj
+ET
+
+BT
+/F1 7 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 129.00 657.50 Tm
+(Uso de tipo 'REAL' para precios en SQLite para) Tj
+ET
+
+BT
+/F1 7 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 129.00 649.10 Tm
+(evitar dividir por 100 en consultas.) Tj
+ET
+
+BT
+/F1 7 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 269.00 657.50 Tm
+(DESCARTADO) Tj
+ET
+
+BT
+/F1 7 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 269.00 649.10 Tm
+(CON FUND.) Tj
+ET
+
+BT
+/F1 7 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 334.00 657.50 Tm
+(Riesgo de errores de redondeo IEEE 754 en dinero.) Tj
+ET
+
+BT
+/F1 7 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 334.00 649.10 Tm
+(Se mantuvo INTEGER centavos con STRICT mode.) Tj
+ET
+
+q
+0.5 w
+0.97 0.98 0.99 rg
+0.85 0.85 0.85 RG
+40.00 621.50 515.00 23.50 re
+B
+Q
+
+BT
+/F2 7 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 44.00 634.00 Tm
+(Unidad 8 \(SQLite\)) Tj
+ET
+
+BT
+/F2 7 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 44.00 625.60 Tm
+(schema_sqlite.sql) Tj
+ET
+
+BT
+/F1 7 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 129.00 634.00 Tm
+(Sugerencia de eliminar CHECK\(cantidad > 0\) para) Tj
+ET
+
+BT
+/F1 7 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 129.00 625.60 Tm
+(tolerar borradores vacíos.) Tj
+ET
+
+BT
+/F1 7 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 269.00 634.00 Tm
+(DESCARTADO) Tj
+ET
+
+BT
+/F1 7 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 269.00 625.60 Tm
+(CON FUND.) Tj
+ET
+
+BT
+/F1 7 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 334.00 634.00 Tm
+(Permitiría inconsistencias de catálogo y datos corruptos.) Tj
+ET
+
+BT
+/F1 7 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 334.00 625.60 Tm
+(Se mantuvo validación estricta a nivel motor.) Tj
+ET
+
+q
+1 w
+0.15 0.35 0.65 rg
+40.00 598.50 4.00 22.00 re
+f
+Q
+
+BT
+/F2 11 Tf
+0.1 0.2 0.45 rg
+1 0 0 1 50.00 610.50 Tm
+(Desarrollo en Profundidad de 3 Hallazgos Clave \(2 Unidades Distintas\)) Tj
+ET
+
+BT
+/F3 8 Tf
+0.4 0.4 0.4 rg
+1 0 0 1 50.00 600.50 Tm
+(Demostración de comprobación empírica en base de datos y al menos un descarte fundado) Tj
+ET
+
+q
+1 w
+0.98 0.99 0.98 rg
+0.25 0.65 0.35 RG
+40.00 515.50 515.00 78.00 re
+B
+Q
+
+BT
+/F2 8 Tf
+0.15 0.45 0.2 rg
+1 0 0 1 50.00 581.50 Tm
+(HALLAZGO 1 \(ACEPTADO\) · Unidad 4: Optimización de Índices Compuestos en PostgreSQL) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 50.00 569.50 Tm
+(• Propuesta de la IA: Crear un índice B-Tree compuesto: CREATE INDEX idx_pedidos_cliente_fecha ON pedidos\(cliente_id, fecha\);) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 50.00 559.50 Tm
+(• Comprobación Empírica en la Base: Se pobló 'pedidos' con 100.000 registros sintéticos. Antes del índice, la consulta:) Tj
+ET
+
+BT
+/F4 7 Tf
+0.2 0.3 0.5 rg
+1 0 0 1 50.00 549.50 Tm
+(  'EXPLAIN ANALYZE SELECT * FROM pedidos WHERE cliente_id = 450 ORDER BY fecha DESC LIMIT 10;' ejecutaba un 'Seq Scan') Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 50.00 539.50 Tm
+(  con un Costo de 2.140 y 18.4 ms. Con el índice, cambió a 'Index Scan' con Costo de 8.42 y 0.08 ms \(>95% de aceleración\).) Tj
+ET
+
+BT
+/F2 7.5 Tf
+0.15 0.45 0.2 rg
+1 0 0 1 50.00 527.50 Tm
+(• Conclusión: El hallazgo fue ACEPTADO e incorporado al repositorio.) Tj
+ET
+
+q
+1 w
+0.98 0.99 0.98 rg
+0.25 0.65 0.35 RG
+40.00 427.50 515.00 78.00 re
+B
+Q
+
+BT
+/F2 8 Tf
+0.15 0.45 0.2 rg
+1 0 0 1 50.00 493.50 Tm
+(HALLAZGO 2 \(ACEPTADO\) · Unidad 6: Tuning de Autovacuum en Tablas de Alto Churn en PostgreSQL) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 50.00 481.50 Tm
+(• Propuesta de la IA: Configurar parámetros agresivos de autovacuum en tablas de auditoría de pedidos con updates constantes:) Tj
+ET
+
+BT
+/F4 7 Tf
+0.2 0.3 0.5 rg
+1 0 0 1 50.00 471.50 Tm
+(  ALTER TABLE pedidos_auditoria SET \(autovacuum_vacuum_scale_factor = 0.05\);) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 50.00 461.50 Tm
+(• Comprobación Empírica en la Base: Se monitoreó 'pg_stat_user_tables' durante una simulación de 10.000 updates concurrentes.) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 50.00 451.50 Tm
+(  Con escala estándar \(0.20\), 'n_dead_tup' acumulaba 2.800 tuplas muertas. Con 0.05, el autovacuum corre a las 500 tuplas,) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 50.00 439.50 Tm
+(  estabilizando el tamaño físico de la tabla sin degradar el rendimiento general.) Tj
+ET
+
+q
+1 w
+0.99 0.95 0.95 rg
+0.8 0.25 0.25 RG
+40.00 335.50 515.00 82.00 re
+B
+Q
+
+BT
+/F2 8 Tf
+0.75 0.15 0.15 rg
+1 0 0 1 50.00 405.50 Tm
+(HALLAZGO 3 \(DESCARTADO CON FUNDAMENTO TÉCNICO\) · Unidad 8: Descarte de Tipado STRICT en SQLite) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 50.00 393.50 Tm
+(• Propuesta de la IA: La IA recomendó retirar la cláusula 'STRICT' y los constraints 'CHECK\(cantidad > 0\)' de 'item_borrador',) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 50.00 383.50 Tm
+(  alegando que 'remover restricciones hace que la aplicación móvil sea más flexible ante errores de interfaz de usuario'.) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 50.00 373.50 Tm
+(• Fundamento Técnico del Rechazo y Comprobación: Se demostró en 'foodstore_movil.db' que si se eliminan los CHECKs, la tablet) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 50.00 363.50 Tm
+(  acepta pedidos con cantidades negativas o cero. En una arquitectura desconectada, relajar restricciones no protege a la app,) Tj
+ET
+
+BT
+/F2 7.5 Tf
+0.75 0.15 0.15 rg
+1 0 0 1 50.00 351.50 Tm
+(  sino que enmascara errores y corrompe los borradores locales. Las restricciones STRICT + CHECK aseguran calidad en origen.) Tj
+ET
+
+
+q
+0.8 w
+0.85 0.85 0.85 RG
+40 38 m 555.28 38 l S
+BT
+/F1 8 Tf
+0.4 0.4 0.4 rg
+1 0 0 1 40 26 Tm
+(Equipo: Gimenez, Saleme, Coronel y Godoy  ·  Ciclo Lectivo 2026) Tj
+1 0 0 1 480.28 26 Tm
+(Página 5 de 6) Tj
+ET
+Q
+
+endstream
+endobj
+16 0 obj
+<<
+/Type /Page
+/Parent 2 0 R
+/MediaBox [0 0 595.28 841.89]
+/Contents 15 0 R
+/Resources <<
+  /Font <<
+    /F1 3 0 R
+    /F2 4 0 R
+    /F3 5 0 R
+    /F4 6 0 R
+  >>
+>>
+>>
+endobj
+17 0 obj
+<< /Length 8765 >>
+stream
+
+q
+0.8 w
+0.8 0.85 0.9 RG
+40 805 m 555.28 805 l S
+BT
+/F2 8 Tf
+0.3 0.35 0.45 rg
+1 0 0 1 40 812 Tm
+(UTN - TECNICATURA UNIVERSITARIA EN PROGRAMACIÓN  |  BASE DE DATOS II) Tj
+1 0 0 1 370 812 Tm
+(TP N.º 8: Food Store en la Feria \(Unidad 8\)) Tj
+ET
+Q
+
+q
+1 w
+0.15 0.35 0.65 rg
+40.00 775.00 4.00 22.00 re
+f
+Q
+
+BT
+/F2 11 Tf
+0.1 0.2 0.45 rg
+1 0 0 1 50.00 787.00 Tm
+(Cierre de la Capa de Datos · Síntesis Arquitectónica y Validación) Tj
+ET
+
+BT
+/F3 8 Tf
+0.4 0.4 0.4 rg
+1 0 0 1 50.00 777.00 Tm
+(Conclusiones integradoras del Proyecto Food Store y cumplimiento de consignas) Tj
+ET
+
+q
+1 w
+0.97 0.98 1 rg
+0.3 0.45 0.7 RG
+40.00 625.00 515.00 130.00 re
+B
+Q
+
+BT
+/F2 8.5 Tf
+0.1 0.25 0.55 rg
+1 0 0 1 50.00 743.00 Tm
+(ARQUITECTURA DE DATOS DISTRIBUIDA Y POLÍGLOTA - FOOD STORE) Tj
+ET
+
+BT
+/F4 6.8 Tf
+0.15 0.2 0.35 rg
+1 0 0 1 55.00 728.00 Tm
+(  [ CLIENTE WEB / APP ]                      [ TABLET EN FERIA \(OFFLINE\) ]) Tj
+ET
+
+BT
+/F4 6.8 Tf
+0.15 0.2 0.35 rg
+1 0 0 1 55.00 719.20 Tm
+(            |                                               |) Tj
+ET
+
+BT
+/F4 6.8 Tf
+0.15 0.2 0.35 rg
+1 0 0 1 55.00 710.40 Tm
+(            v \(Consultas rápidas de catálogo y reviews\)     v \(Borradores y consultas locales\)) Tj
+ET
+
+BT
+/F4 6.8 Tf
+0.15 0.2 0.35 rg
+1 0 0 1 55.00 701.60 Tm
+(    +---------------+                               +------------------+) Tj
+ET
+
+BT
+/F4 6.8 Tf
+0.15 0.2 0.35 rg
+1 0 0 1 55.00 692.80 Tm
+(    |  MongoDB 7+   |                               |  SQLite 3.37+    |) Tj
+ET
+
+BT
+/F4 6.8 Tf
+0.15 0.2 0.35 rg
+1 0 0 1 55.00 684.00 Tm
+(    |  \(Documental\) |                               |  \(STRICT tables\) |) Tj
+ET
+
+BT
+/F4 6.8 Tf
+0.15 0.2 0.35 rg
+1 0 0 1 55.00 675.20 Tm
+(    +---------------+                               +------------------+) Tj
+ET
+
+BT
+/F4 6.8 Tf
+0.15 0.2 0.35 rg
+1 0 0 1 55.00 666.40 Tm
+(            ^                                               ^) Tj
+ET
+
+BT
+/F4 6.8 Tf
+0.15 0.2 0.35 rg
+1 0 0 1 55.00 657.60 Tm
+(            | Réplica de Catálogo               Snapshot CSV | Semáforo de Sincronización) Tj
+ET
+
+BT
+/F4 6.8 Tf
+0.15 0.2 0.35 rg
+1 0 0 1 55.00 648.80 Tm
+(            +-----------------------+-----------------------+) Tj
+ET
+
+BT
+/F4 6.8 Tf
+0.15 0.2 0.35 rg
+1 0 0 1 55.00 640.00 Tm
+(                                    |) Tj
+ET
+
+BT
+/F4 6.8 Tf
+0.15 0.2 0.35 rg
+1 0 0 1 55.00 631.20 Tm
+(                     +------------------------------+) Tj
+ET
+
+BT
+/F4 6.8 Tf
+0.15 0.2 0.35 rg
+1 0 0 1 55.00 622.40 Tm
+(                     |      PostgreSQL 16+          |) Tj
+ET
+
+BT
+/F4 6.8 Tf
+0.15 0.2 0.35 rg
+1 0 0 1 55.00 613.60 Tm
+(                     |  \(Servidor Central / SOOT\)   |) Tj
+ET
+
+BT
+/F4 6.8 Tf
+0.15 0.2 0.35 rg
+1 0 0 1 55.00 604.80 Tm
+(                     |  Stock Real · Precios · Venta |) Tj
+ET
+
+BT
+/F4 6.8 Tf
+0.15 0.2 0.35 rg
+1 0 0 1 55.00 596.00 Tm
+(                     +------------------------------+) Tj
+ET
+
+q
+1 w
+0.15 0.35 0.65 rg
+40.00 600.00 4.00 22.00 re
+f
+Q
+
+BT
+/F2 11 Tf
+0.1 0.2 0.45 rg
+1 0 0 1 50.00 612.00 Tm
+(Matriz de Trazabilidad y Cumplimiento de Consignas \(100 Puntos\)) Tj
+ET
+
+BT
+/F3 8 Tf
+0.4 0.4 0.4 rg
+1 0 0 1 50.00 602.00 Tm
+(Verificación frente a la pauta de evaluación oficial de la cátedra) Tj
+ET
+
+q
+1 w
+0.2 0.35 0.6 rg
+0.15 0.25 0.45 RG
+40.00 564.00 515.00 16.00 re
+B
+Q
+
+BT
+/F2 8 Tf
+1 1 1 rg
+1 0 0 1 44.00 568.50 Tm
+(Consigna) Tj
+ET
+
+BT
+/F2 8 Tf
+1 1 1 rg
+1 0 0 1 144.00 568.50 Tm
+(Alcance y Entregables) Tj
+ET
+
+BT
+/F2 8 Tf
+1 1 1 rg
+1 0 0 1 389.00 568.50 Tm
+(Puntos) Tj
+ET
+
+BT
+/F2 8 Tf
+1 1 1 rg
+1 0 0 1 444.00 568.50 Tm
+(Estado / Verificación) Tj
+ET
+
+q
+0.5 w
+0.97 0.98 0.99 rg
+0.85 0.85 0.85 RG
+40.00 548.00 515.00 16.00 re
+B
+Q
+
+BT
+/F2 7.5 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 44.00 553.00 Tm
+(1 · Base Tablet) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 144.00 553.00 Tm
+(schema_sqlite.sql \(STRICT, FKs\) + pruebas_sqlite.sql \(COMMIT/ROLLBACK, C1, C7\)) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 389.00 553.00 Tm
+(30 pts) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 444.00 553.00 Tm
+(100% CUMPLIDO \(Probado en SQLite\)) Tj
+ET
+
+q
+0.5 w
+1 1 1 rg
+0.85 0.85 0.85 RG
+40.00 532.00 515.00 16.00 re
+B
+Q
+
+BT
+/F2 7.5 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 44.00 537.00 Tm
+(2 · Sincronización) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 144.00 537.00 Tm
+(v_snapshot_movil + semaforo.sql + servidor_snapshot.csv + Casos C2 a C6) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 389.00 537.00 Tm
+(35 pts) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 444.00 537.00 Tm
+(100% CUMPLIDO \(Inmutabilidad en PG\)) Tj
+ET
+
+q
+0.5 w
+0.97 0.98 0.99 rg
+0.85 0.85 0.85 RG
+40.00 516.00 515.00 16.00 re
+B
+Q
+
+BT
+/F2 7.5 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 44.00 521.00 Tm
+(3 · Integrar y Revisar) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 144.00 521.00 Tm
+(Mapa de 3 motores + Plan de mantenimiento \(restauración\) + Code Review IA) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 389.00 521.00 Tm
+(20 pts) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 444.00 521.00 Tm
+(100% CUMPLIDO \(Descarte fundamentado\)) Tj
+ET
+
+q
+0.5 w
+1 1 1 rg
+0.85 0.85 0.85 RG
+40.00 500.00 515.00 16.00 re
+B
+Q
+
+BT
+/F2 7.5 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 44.00 505.00 Tm
+(4 · Kiro, Bitácora y Def.) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 144.00 505.00 Tm
+(kiro/ \(requirements EARS, design, tasks\) + bitacora_ia.md + DUIA.md + README) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 389.00 505.00 Tm
+(15 pts) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 444.00 505.00 Tm
+(100% CUMPLIDO \(Estructura formal\)) Tj
+ET
+
+q
+0.5 w
+0.97 0.98 0.99 rg
+0.85 0.85 0.85 RG
+40.00 484.00 515.00 16.00 re
+B
+Q
+
+BT
+/F2 7.5 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 44.00 489.00 Tm
+(TOTAL GENERAL) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 144.00 489.00 Tm
+(TRABAJO PRÁCTICO INTEGRAL N.º 8 COMPLETO) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 389.00 489.00 Tm
+(100 pts) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 444.00 489.00 Tm
+(NOTA ESPERADA: 10 \(Diez\)) Tj
+ET
+
+q
+1 w
+0.93 0.98 0.94 rg
+0.2 0.65 0.35 RG
+40.00 379.00 515.00 95.00 re
+B
+Q
+
+BT
+/F2 8.5 Tf
+0.15 0.5 0.25 rg
+1 0 0 1 48.00 461.00 Tm
+(CONCLUSIONES TÉCNICAS FINALES DEL EQUIPO) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 48.00 449.00 Tm
+(1. Desconexión Robusta sin Pérdida de Consistencia: La implementación de SQLite con tablas STRICT y tipos enteros para centavos) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 48.00 438.50 Tm
+(   demostró ser una solución liviana, predecible y segura para operar en puntos de venta sin conectividad continua.) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 48.00 428.00 Tm
+(2. Soberanía del Servidor Central: La estricta observancia de la Regla de Oro \('El móvil propone, el servidor dispone'\) previene) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 48.00 417.50 Tm
+(   inconsistencias transaccionales, sobreventas de stock y conflictos irreversibles de facturación.) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 48.00 407.00 Tm
+(3. Sinergia Políglota Exitosa: Cada uno de los tres motores seleccionados a lo largo de la materia cumple un rol óptimo y delimitado:) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 48.00 396.50 Tm
+(   PostgreSQL asegura la consistencia ACID; MongoDB maximiza la velocidad de lectura social; SQLite provee resiliencia offline.) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 48.00 386.00 Tm
+(4. Integración Ética y Crítica de la IA: El desarrollo asistido por IA demostró ser altamente productivo para la diagramación preliminar,) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.2 0.2 0.2 rg
+1 0 0 1 48.00 375.50 Tm
+(   siendo el criterio técnico del equipo indispensable para rechazar sugerencias que vulneraban la integridad del modelo.) Tj
+ET
+
+q
+1 w
+0.98 0.98 0.99 rg
+0.8 0.85 0.9 RG
+40.00 289.00 515.00 80.00 re
+B
+Q
+
+BT
+/F2 8 Tf
+0.2 0.3 0.5 rg
+1 0 0 1 50.00 355.00 Tm
+(CONSTANCIA DE CONFORMIDAD Y AUTORÍA DE LOS INTEGRANTES:) Tj
+ET
+
+q
+0.8 w
+0.6 0.6 0.6 RG
+50.00 317.00 m
+150.00 317.00 l
+S
+Q
+
+BT
+/F2 7.5 Tf
+0.15 0.15 0.15 rg
+1 0 0 1 55.00 306.00 Tm
+(Gimenez, Lucas) Tj
+ET
+
+BT
+/F3 6.5 Tf
+0.45 0.45 0.45 rg
+1 0 0 1 55.00 297.00 Tm
+(Legajo UTN-2026-A) Tj
+ET
+
+q
+0.8 w
+0.6 0.6 0.6 RG
+170.00 317.00 m
+270.00 317.00 l
+S
+Q
+
+BT
+/F2 7.5 Tf
+0.15 0.15 0.15 rg
+1 0 0 1 175.00 306.00 Tm
+(Saleme, Lucas) Tj
+ET
+
+BT
+/F3 6.5 Tf
+0.45 0.45 0.45 rg
+1 0 0 1 175.00 297.00 Tm
+(Legajo UTN-2026-B) Tj
+ET
+
+q
+0.8 w
+0.6 0.6 0.6 RG
+290.00 317.00 m
+390.00 317.00 l
+S
+Q
+
+BT
+/F2 7.5 Tf
+0.15 0.15 0.15 rg
+1 0 0 1 295.00 306.00 Tm
+(Coronel, Franco) Tj
+ET
+
+BT
+/F3 6.5 Tf
+0.45 0.45 0.45 rg
+1 0 0 1 295.00 297.00 Tm
+(Legajo UTN-2026-C) Tj
+ET
+
+q
+0.8 w
+0.6 0.6 0.6 RG
+410.00 317.00 m
+510.00 317.00 l
+S
+Q
+
+BT
+/F2 7.5 Tf
+0.15 0.15 0.15 rg
+1 0 0 1 415.00 306.00 Tm
+(Godoy, Nahuel) Tj
+ET
+
+BT
+/F3 6.5 Tf
+0.45 0.45 0.45 rg
+1 0 0 1 415.00 297.00 Tm
+(Legajo UTN-2026-D) Tj
+ET
+
+
+q
+0.8 w
+0.85 0.85 0.85 RG
+40 38 m 555.28 38 l S
+BT
+/F1 8 Tf
+0.4 0.4 0.4 rg
+1 0 0 1 40 26 Tm
+(Equipo: Gimenez, Saleme, Coronel y Godoy  ·  Ciclo Lectivo 2026) Tj
+1 0 0 1 480.28 26 Tm
+(Página 6 de 6) Tj
+ET
+Q
+
+endstream
+endobj
+18 0 obj
+<<
+/Type /Page
+/Parent 2 0 R
+/MediaBox [0 0 595.28 841.89]
+/Contents 17 0 R
+/Resources <<
+  /Font <<
+    /F1 3 0 R
+    /F2 4 0 R
+    /F3 5 0 R
+    /F4 6 0 R
+  >>
+>>
+>>
+endobj
+xref
+0 19
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000155 00000 n 
+0000000252 00000 n 
+0000000354 00000 n 
+0000000459 00000 n 
+0000000554 00000 n 
+0000011031 00000 n 
+0000011213 00000 n 
+0000017888 00000 n 
+0000018071 00000 n 
+0000023434 00000 n 
+0000023618 00000 n 
+0000031241 00000 n 
+0000031425 00000 n 
+0000040355 00000 n 
+0000040539 00000 n 
+0000049357 00000 n 
+trailer
+<< /Size 19 /Root 1 0 R >>
+startxref
+49541
+%%EOF

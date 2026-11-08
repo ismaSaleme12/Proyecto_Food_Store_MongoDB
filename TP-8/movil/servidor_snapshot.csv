@@ -1,0 +1,9 @@
+id,nombre,precio_centavos,stock,disponible,eliminado
+101,Hamburguesa Clásica,450000,25,t,f
+102,Hamburguesa Doble Queso,600000,15,t,f
+103,Papas Fritas Medianas,220000,30,t,f
+104,Gaseosa Cola 500ml,150000,50,t,f
+105,Cerveza Artesanal IPA,320000,5,t,f
+106,Veggie Burger Especial,520000,0,t,f
+107,Postre Brownie con Helado,280000,10,f,f
+108,Promo Combo Amigos,990000,8,t,t
