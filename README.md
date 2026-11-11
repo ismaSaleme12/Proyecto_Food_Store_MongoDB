@@ -3,6 +3,7 @@
 Entrega del trabajo práctico **«NoSQL y nuevas formas de almacenamiento»** de
 Base de Datos II: modelado documental del subconjunto *pedidos y detalle de pedidos*
 en MongoDB y comparación verificable contra PostgreSQL.
+Alumnos: Sabrina Gimenez, Ismael Saleme, Jeronimo Coronel y Joaquin Godoy
 
 ## Archivos
 
