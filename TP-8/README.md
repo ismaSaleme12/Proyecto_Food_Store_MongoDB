@@ -2,7 +2,7 @@
 ## Food Truck en la Feria: La Base de la Tablet y el Cierre de la Capa de Datos
 **Universidad Tecnológica Nacional (UTN) · Tecnicatura Universitaria en Programación**  
 **Cátedra de Base de Datos II · Ciclo Lectivo 2026**  
-**Equipo de Proyecto**: Gimenez, Lucas · Saleme, Lucas · Coronel, Franco · Godoy, Nahuel
+**Equipo de Proyecto**: Sabrina Gimenez, Ismael Saleme, Jeronimo Coronel y Joaquin Godoy
 
 ---
 
